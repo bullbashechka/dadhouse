@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Blender backup and crash files (keep final .blend scenes)
+*.blend[0-9]*
+*.blend@
+*.crash.txt
+
+# Temporary exports and intermediate files
+/tmp/
+*.tmp
+*.log
+
+# Local credentials
+.env
+.env.*
+!.env.example
+/.aws/
+
+# Local editor settings
+/.idea/
+/.vscode/

@@ -1,0 +1,1965 @@
+{
+  "schema_version": 1,
+  "linear_unit": "mm",
+  "sources": [
+    {
+      "id": "prd",
+      "path": "PRD.md",
+      "role": "Согласованные требования",
+      "sha256": "fa488b2a3de48086eda9ce6ebc03d2150f3438845fbfec412690bf9894af3dbf"
+    },
+    {
+      "id": "voice_11.24.24_AM",
+      "path": "WhatsApp Ptt 2026-10-10 at 11.24.24 AM.txt",
+      "role": "Голосовое; применять с уточнениями PRD",
+      "sha256": "21da4ee24e6cff0bd2a841216a44cc740613bd786bf8349176d4c0df9910096c"
+    },
+    {
+      "id": "voice_11.33.08_AM",
+      "path": "WhatsApp Ptt 2026-10-10 at 11.33.08 AM.txt",
+      "role": "Голосовое; применять с уточнениями PRD",
+      "sha256": "d5422f0335af1c4214db8f0e46205e215b42f263016365eed0e47c16fa1eb1a0"
+    },
+    {
+      "id": "voice_11.33.54_AM",
+      "path": "WhatsApp Ptt 2026-10-10 at 11.33.54 AM.txt",
+      "role": "Голосовое; применять с уточнениями PRD",
+      "sha256": "a68974d8b6fee368d785db5a1fb4f7630eb798c3a6b43029ed76a36cdd133642"
+    },
+    {
+      "id": "voice_11.37.24_AM",
+      "path": "WhatsApp Ptt 2026-10-10 at 11.37.24 AM.txt",
+      "role": "Голосовое; применять с уточнениями PRD",
+      "sha256": "265037b6ef7bd2bf2d5759df203f9a55da2d64d3804ae9ce7458165c49f7bb04"
+    },
+    {
+      "id": "reference_mezzanine",
+      "path": "Снимок экрана — 2026-10-10 в 10.49.29 AM.png",
+      "role": "Основной визуальный референс",
+      "sha256": "c512a6e94d7b8ef9053525323729aeb24970642783e74fcabecb116ffd0b2677"
+    },
+    {
+      "id": "reference_additional",
+      "path": "Снимок экрана — 2026-10-10 в 10.49.44 AM.png",
+      "role": "Дополнительный сохранённый референс",
+      "sha256": "6b8e474437542b07402953b7e099b851c91ba50a56d99e054bc468a6838d8e57"
+    },
+    {
+      "id": "reference_exterior",
+      "path": "Снимок экрана — 2026-10-10 в 10.50.32 AM.png",
+      "role": "Основной визуальный референс",
+      "sha256": "040986836cb7e4fad4d98a0692930ef62cd861ce622b37ccdb232c12cf61f327"
+    },
+    {
+      "id": "pdf",
+      "path": "ЭП Жилой дом Ул.Ынтымак, 12 Солнечный 2-1.pdf",
+      "role": "Основной чертёж: фасады 1, план 2, разрезы и кровля 3",
+      "sha256": "8c0cc2ebf590b01549cd7544e91f1ad19fc38415cf419ff3a48bcfbb3399f17e"
+    },
+    {
+      "id": "stage1_plan",
+      "path": "data/stage1_plan.md",
+      "role": "План, разрешённый пользователем к реализации",
+      "sha256": "e4e22597bd19762ccd97bb756c76d80cc99cbebd09b3c4a07a6a2be03306b41d"
+    }
+  ],
+  "authorization": {
+    "date": "2026-10-10",
+    "instruction": "реализуй план",
+    "scope": "Этап 1: данные и пустой шаблон Blender"
+  },
+  "coordinates": {
+    "origin": "Нижний левый наружный угол основного прямоугольника плана",
+    "x": "вправо на странице 2",
+    "y": "вверх на странице 2",
+    "z": "вверх",
+    "floor_datum_mm": 0,
+    "axes_mm": {
+      "1": 200,
+      "2": 6400,
+      "3": 11800,
+      "А": 200,
+      "Б": 5900,
+      "В": 9800
+    },
+    "axes_status": "reconstructed_from_dimension_chains"
+  },
+  "baseline": {
+    "footprint": [
+      "house_x",
+      "house_y"
+    ],
+    "kitchen": [
+      "kitchen_x",
+      "kitchen_y"
+    ],
+    "garage": [
+      "garage_x",
+      "garage_y"
+    ],
+    "ridge": "ridge",
+    "kitchen_bbox_mm": [
+      6600,
+      400,
+      11600,
+      5700
+    ],
+    "garage_bbox_mm": [
+      400,
+      6100,
+      6200,
+      9600
+    ],
+    "bbox_status": "reconstructed_from_dimension_chains",
+    "roof": [
+      "roof_x",
+      "roof_y",
+      "roof_overhang",
+      "slope_a",
+      "slope_v"
+    ],
+    "wall_height_note": "2700 — нижняя плоскость потолка; 2900 — верхний узел. При моделировании различать стену, мауэрлат и конструкцию покрытия."
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Тамбур",
+      "area": "room_1_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 2,
+      "name": "Прихожая",
+      "area": "room_2_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 3,
+      "name": "Гараж",
+      "area": "room_3_area",
+      "dimensions": [
+        "garage_x",
+        "garage_y"
+      ],
+      "placement_status": "confirmed",
+      "placement": "Левый верхний блок",
+      "note": null
+    },
+    {
+      "id": 4,
+      "name": "Санузел",
+      "area": "room_4_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 5,
+      "name": "Спальня",
+      "area": "room_5_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 6,
+      "name": "Гардеробная",
+      "area": "room_6_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 7,
+      "name": "Кухня-гостиная",
+      "area": "room_7_area",
+      "dimensions": [
+        "kitchen_x",
+        "kitchen_y"
+      ],
+      "placement_status": "confirmed",
+      "placement": "Правый нижний блок",
+      "note": null
+    },
+    {
+      "id": 8,
+      "name": "Кладовая",
+      "area": "room_8_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 9,
+      "name": "Постирочная",
+      "area": "room_9_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 10,
+      "name": "Коридор",
+      "area": "room_10_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 11,
+      "name": "Сауна",
+      "area": "room_11_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    },
+    {
+      "id": 12,
+      "name": "Котельная",
+      "area": "room_12_area",
+      "dimensions": [],
+      "placement_status": "unresolved",
+      "placement": null,
+      "note": "На плане отсутствуют номера помещений. Название не назначать геометрии только по площади; сопоставить связи и экспликацию на этапе 2."
+    }
+  ],
+  "measurements": [
+    {
+      "id": "house_x",
+      "label": "Наружная ширина основного прямоугольника",
+      "value": 12000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        12000,
+        12000
+      ]
+    },
+    {
+      "id": "house_y",
+      "label": "Наружная глубина",
+      "value": 10000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        10000,
+        10000
+      ]
+    },
+    {
+      "id": "axes_x",
+      "label": "Оси 1–3",
+      "value": 11600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        11600,
+        11600
+      ]
+    },
+    {
+      "id": "axes_y",
+      "label": "Оси А–В",
+      "value": 9600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        9600,
+        9600
+      ]
+    },
+    {
+      "id": "axis_1_2",
+      "label": "Оси 1–2",
+      "value": 6200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        6200,
+        6200
+      ]
+    },
+    {
+      "id": "axis_2_3",
+      "label": "Оси 2–3",
+      "value": 5400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5400,
+        5400
+      ]
+    },
+    {
+      "id": "axis_a_b",
+      "label": "Оси А–Б",
+      "value": 5700,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5700,
+        5700
+      ]
+    },
+    {
+      "id": "axis_b_v",
+      "label": "Оси Б–В",
+      "value": 3900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3900,
+        3900
+      ]
+    },
+    {
+      "id": "outer_wall",
+      "label": "Наружные стены",
+      "value": 400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "internal_wall_400",
+      "label": "Основные внутренние стены",
+      "value": 400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "partition_200",
+      "label": "Перегородки по соответствующим выноскам",
+      "value": 200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "partition_100",
+      "label": "Тонкая перегородка верхнего среднего участка",
+      "value": 100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": "kitchen_x",
+      "label": "Кухня-гостиная: внутренний размер X",
+      "value": 5000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5000,
+        5000
+      ]
+    },
+    {
+      "id": "kitchen_y",
+      "label": "Кухня-гостиная: внутренний размер Y",
+      "value": 5300,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5300,
+        5300
+      ]
+    },
+    {
+      "id": "garage_x",
+      "label": "Гараж: внутренний размер X",
+      "value": 5800,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5800,
+        5800
+      ]
+    },
+    {
+      "id": "garage_y",
+      "label": "Гараж: внутренний размер Y",
+      "value": 3500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3500,
+        3500
+      ]
+    },
+    {
+      "id": "lower_left_x",
+      "label": "Нижний левый участок: X",
+      "value": 3100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3100,
+        3100
+      ]
+    },
+    {
+      "id": "lower_left_y",
+      "label": "Нижний левый участок: Y",
+      "value": 3600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3600,
+        3600
+      ]
+    },
+    {
+      "id": "middle_left_y",
+      "label": "Левый участок между гаражом и нижней комнатой: Y",
+      "value": 1500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "id": "central_passage_x",
+      "label": "Средний проход: X",
+      "value": 1100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "id": "central_passage_y",
+      "label": "Средний проход: Y",
+      "value": 3200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3200,
+        3200
+      ]
+    },
+    {
+      "id": "central_lower_west_x",
+      "label": "Нижний центральный западный участок: X",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "central_lower_west_y",
+      "label": "Нижний центральный западный участок: Y",
+      "value": 1900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1900,
+        1900
+      ]
+    },
+    {
+      "id": "central_lower_east_x",
+      "label": "Нижний центральный восточный участок: X",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "central_lower_east_y",
+      "label": "Нижний центральный восточный участок: Y",
+      "value": 1900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1900,
+        1900
+      ]
+    },
+    {
+      "id": "central_upper_east_x",
+      "label": "Участок непосредственно справа от среднего прохода: X",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "central_upper_east_y",
+      "label": "Тот же участок: Y",
+      "value": 1500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "id": "central_east_gap_y",
+      "label": "Участок между верхней и нижней восточной ячейкой: Y",
+      "value": 1500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "id": "upper_middle_x",
+      "label": "Верхний средний участок: X",
+      "value": 2500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "id": "upper_middle_y",
+      "label": "Верхний средний участок: Y",
+      "value": 2200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": "upper_right_x",
+      "label": "Верхний правый участок: X",
+      "value": 2300,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2300,
+        2300
+      ]
+    },
+    {
+      "id": "upper_right_y",
+      "label": "Верхний правый участок: Y",
+      "value": 2200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": "upper_link_west_y",
+      "label": "Соединительный участок под верхней средней комнатой: Y",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "upper_link_east_y",
+      "label": "Соединительный участок под верхней правой комнатой: Y",
+      "value": 1100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1100,
+        1100
+      ]
+    },
+    {
+      "id": "porch_width",
+      "label": "Оба крыльца: наружная ширина",
+      "value": 2200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": "porch_depth",
+      "label": "Оба крыльца: вылет",
+      "value": 1900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1900,
+        1900
+      ]
+    },
+    {
+      "id": "terrace_x",
+      "label": "Терраса: вылет вправо",
+      "value": 3000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "id": "terrace_y",
+      "label": "Терраса: длина вдоль дома",
+      "value": 6200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        6200,
+        6200
+      ]
+    },
+    {
+      "id": "terrace_stair_y",
+      "label": "Лестница террасы: длина на плане",
+      "value": 1400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1400,
+        1400
+      ]
+    },
+    {
+      "id": "terrace_lower_strip",
+      "label": "Нижняя полоса террасы по размерной цепочке",
+      "value": 400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        400,
+        400
+      ]
+    },
+    {
+      "id": "north_first_pier",
+      "label": "Северный фасад: первый простенок от наружного угла",
+      "value": 1300,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1300,
+        1300
+      ]
+    },
+    {
+      "id": "north_window_1",
+      "label": "Первое северное окно",
+      "value": 1400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1400,
+        1400
+      ]
+    },
+    {
+      "id": "north_middle_pier",
+      "label": "Между северными окнами",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "north_window_2",
+      "label": "Второе северное окно",
+      "value": 1400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1400,
+        1400
+      ]
+    },
+    {
+      "id": "north_pier_before_porch",
+      "label": "От второго окна до крыльца",
+      "value": 950,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        950,
+        950
+      ]
+    },
+    {
+      "id": "north_pier_after_porch",
+      "label": "От крыльца до правого угла",
+      "value": 3550,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3550,
+        3550
+      ]
+    },
+    {
+      "id": "south_before_porch",
+      "label": "Южный фасад: от левого угла до крыльца",
+      "value": 3200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3200,
+        3200
+      ]
+    },
+    {
+      "id": "south_after_porch",
+      "label": "От крыльца до правого угла",
+      "value": 6600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        6600,
+        6600
+      ]
+    },
+    {
+      "id": "east_upper_to_terrace",
+      "label": "Восточная стена: верхний участок до террасы",
+      "value": 3850,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3850,
+        3850
+      ]
+    },
+    {
+      "id": "east_pier",
+      "label": "Восточная стена: от уровня начала террасы до окна",
+      "value": 2500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2500,
+        2500
+      ]
+    },
+    {
+      "id": "east_window",
+      "label": "Восточное окно",
+      "value": 1500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "id": "terrace_door_width",
+      "label": "Дверь на террасу",
+      "value": 900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        900,
+        900
+      ]
+    },
+    {
+      "id": "terrace_door_pier",
+      "label": "Простенки по обе стороны двери на террасу",
+      "value": 625,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        625,
+        625
+      ]
+    },
+    {
+      "id": "west_window",
+      "label": "Западное окно",
+      "value": 1200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": "west_lower_pier",
+      "label": "Западный фасад: нижний простенок",
+      "value": 1900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1900,
+        1900
+      ]
+    },
+    {
+      "id": "west_middle_pier",
+      "label": "Западный фасад: средняя размерная цепочка",
+      "value": 3250,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3250,
+        3250
+      ]
+    },
+    {
+      "id": "garage_gate_width",
+      "label": "Проём ворот по вертикальной размерной линии",
+      "value": 3000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        3000,
+        3000
+      ]
+    },
+    {
+      "id": "west_upper_chain",
+      "label": "Верхний отступ ворот по размерной линии; точку отсчёта уточнить при трассировке",
+      "value": 650,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        650,
+        650
+      ]
+    },
+    {
+      "id": "roof_x",
+      "label": "Основная крыша: X",
+      "value": 13000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        13000,
+        13000
+      ]
+    },
+    {
+      "id": "roof_y",
+      "label": "Основная крыша: Y",
+      "value": 11000,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        11000,
+        11000
+      ]
+    },
+    {
+      "id": "roof_overhang",
+      "label": "Свес основной крыши",
+      "value": 500,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        500,
+        500
+      ]
+    },
+    {
+      "id": "ridge",
+      "label": "Принятая отметка конька",
+      "value": 5320,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        5320,
+        5320
+      ]
+    },
+    {
+      "id": "roof_inner_ridge_mark",
+      "label": "Отметка нижней части конькового узла на разрезе 1–1",
+      "value": 4770,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        4770,
+        4770
+      ]
+    },
+    {
+      "id": "base_upper_mark",
+      "label": "Верхний уровень стены/узла покрытия по разрезам",
+      "value": 2900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        2900,
+        2900
+      ]
+    },
+    {
+      "id": "base_ceiling_mark",
+      "label": "Нижняя плоскость потолка по разрезам",
+      "value": 2700,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        2700,
+        2700
+      ]
+    },
+    {
+      "id": "canopy_section_mark",
+      "label": "Отметка пристроенного навеса на разрезе",
+      "value": 2235,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        2235,
+        2235
+      ]
+    },
+    {
+      "id": "door_head",
+      "label": "Верх дверных проёмов по разрезам",
+      "value": 2100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        2100,
+        2100
+      ]
+    },
+    {
+      "id": "floor",
+      "label": "Чистый пол",
+      "value": 0,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "porch_level",
+      "label": "Уровень крыльца",
+      "value": -20,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        -20,
+        -20
+      ]
+    },
+    {
+      "id": "ground",
+      "label": "Земля по разрезам",
+      "value": -600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        -600,
+        -600
+      ]
+    },
+    {
+      "id": "slope_a",
+      "label": "Скат к оси А",
+      "value": 20,
+      "unit": "degrees",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        20,
+        20
+      ]
+    },
+    {
+      "id": "slope_v",
+      "label": "Скат к оси В",
+      "value": 28,
+      "unit": "degrees",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 3,
+      "check_range": [
+        28,
+        28
+      ]
+    },
+    {
+      "id": "ridge_conflict",
+      "label": "Расходящаяся отметка фасада 3–1; не применять",
+      "value": 5385,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        5385,
+        5385
+      ]
+    },
+    {
+      "id": "window_sill",
+      "label": "Подоконник первого этажа",
+      "value": 900,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        900,
+        900
+      ]
+    },
+    {
+      "id": "window_head",
+      "label": "Верх окон первого этажа",
+      "value": 2100,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        2100,
+        2100
+      ]
+    },
+    {
+      "id": "upper_glazing_low",
+      "label": "Низ верхнего остекления фасада А–В",
+      "value": 3130,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        3130,
+        3130
+      ]
+    },
+    {
+      "id": "upper_glazing_high",
+      "label": "Верх верхнего остекления фасада А–В",
+      "value": 3980,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        3980,
+        3980
+      ]
+    },
+    {
+      "id": "canopy_low",
+      "label": "Нижняя отметка навесов на фасадах",
+      "value": 2200,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": "canopy_other",
+      "label": "Отметка навеса на фасаде 1–3",
+      "value": 2400,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        2400,
+        2400
+      ]
+    },
+    {
+      "id": "canopy_high",
+      "label": "Верхняя отметка навесов на фасадах",
+      "value": 2600,
+      "unit": "mm",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 1,
+      "check_range": [
+        2600,
+        2600
+      ]
+    },
+    {
+      "id": "room_1_area",
+      "label": "Площадь: Тамбур",
+      "value": 1.8,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1.8,
+        1.8
+      ]
+    },
+    {
+      "id": "room_2_area",
+      "label": "Площадь: Прихожая",
+      "value": 8.62,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        8.62,
+        8.62
+      ]
+    },
+    {
+      "id": "room_3_area",
+      "label": "Площадь: Гараж",
+      "value": 20.3,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        20.3,
+        20.3
+      ]
+    },
+    {
+      "id": "room_4_area",
+      "label": "Площадь: Санузел",
+      "value": 1.8,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1.8,
+        1.8
+      ]
+    },
+    {
+      "id": "room_5_area",
+      "label": "Площадь: Спальня",
+      "value": 11.16,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        11.16,
+        11.16
+      ]
+    },
+    {
+      "id": "room_6_area",
+      "label": "Площадь: Гардеробная",
+      "value": 4.75,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        4.75,
+        4.75
+      ]
+    },
+    {
+      "id": "room_7_area",
+      "label": "Площадь: Кухня-гостиная",
+      "value": 26.49,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        26.49,
+        26.49
+      ]
+    },
+    {
+      "id": "room_8_area",
+      "label": "Площадь: Кладовая",
+      "value": 2.2,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "id": "room_9_area",
+      "label": "Площадь: Постирочная",
+      "value": 1.92,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        1.92,
+        1.92
+      ]
+    },
+    {
+      "id": "room_10_area",
+      "label": "Площадь: Коридор",
+      "value": 2.2,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        2.2,
+        2.2
+      ]
+    },
+    {
+      "id": "room_11_area",
+      "label": "Площадь: Сауна",
+      "value": 4.4,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        4.4,
+        4.4
+      ]
+    },
+    {
+      "id": "room_12_area",
+      "label": "Площадь: Котельная",
+      "value": 5.2,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        5.2,
+        5.2
+      ]
+    },
+    {
+      "id": "area_total",
+      "label": "Итого по экспликации",
+      "value": 90.84,
+      "unit": "m2",
+      "status": "dimensioned",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        90.84,
+        90.84
+      ]
+    },
+    {
+      "id": "door_north",
+      "label": "Вход с верхнего крыльца",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_south",
+      "label": "Вход с нижнего крыльца",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_garage_hall",
+      "label": "Гараж — средний проход",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_mid_left",
+      "label": "Средняя левая комната — проход",
+      "value": 650,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        600,
+        700
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_lower_left",
+      "label": "Нижняя левая комната — проход",
+      "value": 800,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        750,
+        850
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_lower_central_west",
+      "label": "Нижняя центральная западная ячейка",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_lower_central_east",
+      "label": "Нижняя центральная восточная ячейка",
+      "value": 800,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        750,
+        850
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_upper_central_east",
+      "label": "Верхняя центральная восточная ячейка",
+      "value": 800,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        750,
+        850
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_kitchen_west",
+      "label": "Кухня-гостиная — центральный участок",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_kitchen_north",
+      "label": "Кухня-гостиная — верхний правый блок",
+      "value": 800,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        750,
+        850
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_upper_middle",
+      "label": "Верхняя средняя комната — соединительный участок",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "door_upper_right",
+      "label": "Верхняя правая комната — соединительный участок",
+      "value": 900,
+      "unit": "mm",
+      "status": "reconstructed",
+      "source": "pdf",
+      "page": 2,
+      "check_range": [
+        850,
+        950
+      ],
+      "reason": "Оценка по изображению страницы 2 относительно подписанного размера 5000 мм по X; округление 50 мм. Диапазон для проверки чувствительности, не гарантия точности обмера. Визуальная оценка требует точной трассировки перед созданием стен; ±50 мм не заменяет уточнение привязки."
+    },
+    {
+      "id": "garage_wall",
+      "label": "Верх стены гаража в альтернативах",
+      "value": 2200,
+      "unit": "mm",
+      "status": "agreed",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": "kitchen_wall",
+      "label": "Верх стены кухни-гостиной в альтернативах",
+      "value": 2800,
+      "unit": "mm",
+      "status": "agreed",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        2800,
+        2800
+      ]
+    },
+    {
+      "id": "person_height",
+      "label": "Рост человека",
+      "value": 1900,
+      "unit": "mm",
+      "status": "agreed",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        1900,
+        1900
+      ]
+    },
+    {
+      "id": "head_margin",
+      "label": "Запас над головой",
+      "value": 150,
+      "unit": "mm",
+      "status": "agreed",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": "route_height",
+      "label": "Минимальная чистая высота непрерывного маршрута",
+      "value": 2050,
+      "unit": "mm",
+      "status": "agreed",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        2050,
+        2050
+      ]
+    },
+    {
+      "id": "roof_thickness",
+      "label": "Общая толщина крыши нормально к скату",
+      "value": 350,
+      "unit": "mm",
+      "status": "assumption",
+      "source": "stage1_plan",
+      "page": null,
+      "check_range": [
+        350,
+        450
+      ],
+      "reason": "Числа толщин приняты из плана реализации, разрешённого пользователем; это габариты для пространственной проверки, не расчёт сечений. Ширина прохода — ориентир PRD."
+    },
+    {
+      "id": "mezzanine_thickness",
+      "label": "Общая толщина площадки",
+      "value": 300,
+      "unit": "mm",
+      "status": "assumption",
+      "source": "stage1_plan",
+      "page": null,
+      "check_range": [
+        300,
+        400
+      ],
+      "reason": "Числа толщин приняты из плана реализации, разрешённого пользователем; это габариты для пространственной проверки, не расчёт сечений. Ширина прохода — ориентир PRD."
+    },
+    {
+      "id": "mauerlat_side",
+      "label": "Сторона квадратного мауэрлата",
+      "value": 150,
+      "unit": "mm",
+      "status": "assumption",
+      "source": "stage1_plan",
+      "page": null,
+      "check_range": [
+        150,
+        200
+      ],
+      "reason": "Числа толщин приняты из плана реализации, разрешённого пользователем; это габариты для пространственной проверки, не расчёт сечений. Ширина прохода — ориентир PRD."
+    },
+    {
+      "id": "route_width",
+      "label": "Предварительная чистая ширина прохода",
+      "value": 1000,
+      "unit": "mm",
+      "status": "assumption",
+      "source": "prd",
+      "page": null,
+      "check_range": [
+        1000,
+        1000
+      ],
+      "reason": "Числа толщин приняты из плана реализации, разрешённого пользователем; это габариты для пространственной проверки, не расчёт сечений. Ширина прохода — ориентир PRD."
+    },
+    {
+      "id": "mezzanine_level",
+      "label": "Отметка площадки",
+      "value": null,
+      "unit": "mm",
+      "status": "unknown",
+      "source": "prd",
+      "page": null,
+      "check_range": null,
+      "reason": "Подбирается на этапах 3–5 с приоритетом простора нижнего уровня."
+    },
+    {
+      "id": "beam_projection",
+      "label": "Выступ балки ниже принятого габарита",
+      "value": null,
+      "unit": "mm",
+      "status": "unknown",
+      "source": "prd",
+      "page": null,
+      "check_range": null,
+      "reason": "При появлении выступающего элемента измерить отдельно; не считать нулём."
+    },
+    {
+      "id": "canopy_thickness",
+      "label": "Толщина навесов",
+      "value": null,
+      "unit": "mm",
+      "status": "unknown",
+      "source": "pdf",
+      "page": 1,
+      "check_range": null,
+      "reason": "Сечения не заданы; восстановить габарит по разрезу до моделирования навесов."
+    },
+    {
+      "id": "upper_glazing_width",
+      "label": "Ширина верхнего остекления",
+      "value": null,
+      "unit": "mm",
+      "status": "unknown",
+      "source": "pdf",
+      "page": 1,
+      "check_range": null,
+      "reason": "Перенести с фасада А–В при построении исходной крыши; не подписана."
+    }
+  ],
+  "opening_estimates": [
+    {
+      "id": "door_north",
+      "width": "door_north",
+      "location": "Вход с верхнего крыльца",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_south",
+      "width": "door_south",
+      "location": "Вход с нижнего крыльца",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_garage_hall",
+      "width": "door_garage_hall",
+      "location": "Гараж — средний проход",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_mid_left",
+      "width": "door_mid_left",
+      "location": "Средняя левая комната — проход",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_lower_left",
+      "width": "door_lower_left",
+      "location": "Нижняя левая комната — проход",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_lower_central_west",
+      "width": "door_lower_central_west",
+      "location": "Нижняя центральная западная ячейка",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_lower_central_east",
+      "width": "door_lower_central_east",
+      "location": "Нижняя центральная восточная ячейка",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_upper_central_east",
+      "width": "door_upper_central_east",
+      "location": "Верхняя центральная восточная ячейка",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_kitchen_west",
+      "width": "door_kitchen_west",
+      "location": "Кухня-гостиная — центральный участок",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_kitchen_north",
+      "width": "door_kitchen_north",
+      "location": "Кухня-гостиная — верхний правый блок",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_upper_middle",
+      "width": "door_upper_middle",
+      "location": "Верхняя средняя комната — соединительный участок",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    },
+    {
+      "id": "door_upper_right",
+      "width": "door_upper_right",
+      "location": "Верхняя правая комната — соединительный участок",
+      "position_status": "trace_on_stage2",
+      "height": "door_head",
+      "warning": "Сторону открывания и точные привязки косяков перенести с PDF до построения проёма. Назначение котельной не подтверждено."
+    }
+  ],
+  "alternatives": {
+    "roof_variants": [
+      "mansard",
+      "gable",
+      "high_gable_over_kitchen"
+    ],
+    "walls": {
+      "garage": "garage_wall",
+      "kitchen": "kitchen_wall"
+    },
+    "mezzanine_positions": [
+      "вдоль стены со стороны котельной",
+      "вдоль стены со стороны коридора"
+    ],
+    "stairs": [
+      "обычная постоянная",
+      "компактная крутая"
+    ],
+    "upper_occupancy": "только часть кухни-гостиной; два гостя",
+    "allowed_ground_floor_change": "только смещение двери кухня-гостиная — котельная в общей стене после подтверждения привязки помещений",
+    "clearance_measurements": [
+      "person_height",
+      "head_margin",
+      "route_height",
+      "route_width"
+    ],
+    "check_increased_thickness": true,
+    "lower_room_priority": "сохранить простор; выбирать высоту крыши, затем согласовать компоновку",
+    "first_comparison": "4 крыши, по одному предварительно проверенному сочетанию на альтернативу; условную пригодность подписать"
+  },
+  "assumptions_policy": {
+    "status_labels": {
+      "dimensioned": "подписан в источнике",
+      "reconstructed": "восстановлен по чертежу",
+      "assumption": "принят как допущение",
+      "unknown": "не определён",
+      "agreed": "согласован в PRD"
+    },
+    "range_semantics": "Границы сценария проверки, не статистическая точность и не допуск строительства.",
+    "structure": "Балки и отделка входят в суммарные толщины; выступы учитываются отдельно.",
+    "source_priority": "Размерная надпись > восстановление; PRD определяет альтернативы, PDF исходный дом."
+  },
+  "unresolved": [
+    {
+      "id": "room_mapping",
+      "issue": "Привязка 10 названий экспликации к контурам не подтверждена. Нижний левый прямоугольник 3100×3600 соответствует 11,16 м² спальни, но это лишь кандидат.",
+      "resolve_before": "Назначение комнат и двери котельной на этапе 2; сопоставить план/связи, при неоднозначности показать пользователю пронумерованную схему."
+    },
+    {
+      "id": "opening_positions",
+      "issue": "Неподписанные привязки косяков и ширины предварительные.",
+      "resolve_before": "Построение проёмов этапа 2: трассировать PDF с независимой калибровкой X/Y; зависимые от размеров решения уточнить до детализации."
+    },
+    {
+      "id": "roof_nodes",
+      "issue": "Толщина исходной крыши и узлы сопряжений не имеют рабочих сечений.",
+      "resolve_before": "Построение исходной крыши: совместить наружный контур, уклоны и отметки; сохранять отклонения в журнале."
+    },
+    {
+      "id": "area_rounding",
+      "issue": "5000×5300 = 26,50 м², экспликация 26,49 м².",
+      "resolve_before": "Не изменять подписанные линейные размеры ради совпадения площади."
+    },
+    {
+      "id": "ridge_conflict",
+      "issue": "Фасад 3–1: 5385 мм; разрезы и другие фасады: 5320 мм.",
+      "resolve_before": "Решено PRD: использовать 5320 мм."
+    },
+    {
+      "id": "vertical_openings",
+      "issue": "Общий верх дверей 2100 не является отдельным размером ворот; высоту ворот проверить по фасаду.",
+      "resolve_before": "Построение ворот этапа 2."
+    }
+  ],
+  "extraction_method": {
+    "pdf_pages": [
+      1,
+      2,
+      3
+    ],
+    "method": "Текст pdftotext и визуальная сверка всех страниц pdftoppm; приоритет числовых размерных надписей.",
+    "scale_cross_check": "На обзорном изображении плана главный контур имеет отношение сторон около 1,20, соответствующее 12000/10000. Точные неподписанные координаты косяков пока не извлечены.",
+    "room_geometry_policy": "Размеры неименованных участков сохранены отдельно; неподтверждённые названия не подставлены автоматически."
+  }
+}

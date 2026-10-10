@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "archviz": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/archviz/SKILL.md",
+      "computedHash": "82d7ed9c40392fb869c0f4b2fef6a97da08fb646be4cf627a8c9ff055574a5eb"
+    },
+    "blender-production": {
+      "source": "Randroids-Dojo/skills",
+      "sourceType": "github",
+      "skillPath": "plugins/blender-production/SKILL.md",
+      "computedHash": "9892bd8f2fef9b877aa48b5b8a749176655b6e679deceb9ab9835dcb849a3d06"
+    }
+  }
+}

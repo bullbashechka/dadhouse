@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "errors": [],
+  "blender_version": "5.2.1 LTS",
+  "pid": 60286,
+  "scene_file": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage1.blend",
+  "scene_sha256": "b50cbf76683f00ec1ac3ab80ca9a9b7c6578eb0b661c6495cd18e086c990f0a7",
+  "spec_sha256": "e71057ecfff0274cd95db86001b6282f3b80d414ad6f3631287bb04dbf4066c5",
+  "unit_system": "METRIC",
+  "scale_length": 1.0,
+  "length_unit": "METERS",
+  "objects": 0,
+  "collections": [
+    "Base_House",
+    "Cameras",
+    "Furniture",
+    "Lighting",
+    "Mezzanines",
+    "Roof_Gable",
+    "Roof_High_Kitchen",
+    "Roof_Mansard",
+    "Roof_Original",
+    "Roofs",
+    "Stairs"
+  ],
+  "conversion_examples_m": [
+    1.0,
+    5.0,
+    5.3
+  ]
+}
