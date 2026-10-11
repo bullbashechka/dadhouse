@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "method": "Manual visual inspection; not automated TDD",
+  "scene_sha256": "37fecf6b2ea97e838fdc208ae33fa1b4b0a2d77e8a8fd161ba52226024ad5ab8",
+  "images": {
+    "02_original_room_with_ceiling.png": "b9a4e56859aa5468fbc0a59b18485f64f2f9eb0771e56a77bdeeb4a340ced627",
+    "facade_east.png": "6c38249466c02a06da3952627491e4168e3a478371c682aa3bccabc745de3063",
+    "facade_west.png": "ff19f82fc334a1204415c6dd12fb199393b9a03a05e71866fda17cad11470772",
+    "plan_dimensions.png": "702d005775e06d3be398b0891056717b0a07e2d42841d122697d17702706ba0a",
+    "facade_north.png": "3f35473a04182f694d14638752882d19cce5634e69999f943fe03c1b4ea0d0b3",
+    "section_kitchen.png": "49e00720ff80b5d1e67ca6999c1a119a1b0ad9cb0c43620cbe392326cf652be7",
+    "door_sweeps.png": "71861659ee9d65b8d633fb46b829c5973b27e38fc5ada9c2700b95753f45ab34",
+    "facade_south.png": "531b8593e00b94dd829fa1c542e7d7dbdd67db9d5b38869eca77483c48d48d2a",
+    "03_diagnostic_cutaway.png": "b8afd4151b1c065c8c01758e7134506336ba9d154c67e56da541901524fb6d27",
+    "section_garage.png": "312892c4d2d690d19dcd4b5876ee1b9cc099b65a0f6cb7bb4b5ef75de964f670",
+    "01_original_exterior.png": "d1e2b13c255137feca6557b02581e8d2faa2e1f382dcfe616bbe88f406c133ad"
+  },
+  "source_pdf_sha256": "8c0cc2ebf590b01549cd7544e91f1ad19fc38415cf419ff3a48bcfbb3399f17e",
+  "criteria": [
+    "Планы: читаемые размеры, обозначения C–L и допущения; полный ход дверей на отдельной схеме.",
+    "Фасады: контуры, проёмы, навесы, пандус и отметки сверены с PDF.",
+    "Разрезы: исходный потолок, конёк и скаты; предварительные толщины подписаны.",
+    "Общие виды: нейтральная геометрия, исходная крыша и потолок; диагностическое скрытие подписано."
+  ],
+  "limitations": [
+    "Умеренно тёмное техническое освещение; изображения предназначены для проверки геометрии.",
+    "Предварительные конструкции и размеры отмечены оранжевым; инженерный расчёт не выполнялся.",
+    "Назначения C–L отложены."
+  ]
+}

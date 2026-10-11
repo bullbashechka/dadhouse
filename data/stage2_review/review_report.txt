@@ -1,0 +1,65 @@
+ЭТАП 2 — РЕВИЗИЯ ДЛЯ ПРИЁМКИ ГЕОМЕТРИИ
+
+Модель: /Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2_review.blend
+Изображения: /Users/kirillsaidashev/Documents/Projects/dadhouse/renders/stage2_review
+
+РЕЗУЛЬТАТ
+160 геометрических проверок пройдено. Проверены реальные поверхности сохранённой сцены.
+14 дверей проверены на всём ходе 0–90°, 91 пара — при независимых углах.
+Столкновений не обнаружено при номинальных размерах и в согласованных диапазонах ширин/привязок.
+Приёмка геометрии выполняется отдельно. Назначения C–L отложены; полный этап не объявлен завершённым.
+
+ИЗМЕНЕНИЯ
+Уточнена условная ось петель и добавлен зазор полотна у притвора 3 мм; проёмы не переносились.
+Верхнее окно выключается с исходной крышей; навесы принадлежат базовому дому.
+Восстановлен пандус гаража по фасаду: длина ≈3000 мм, ширина 3000 мм, подъём 600 мм.
+Размеры-допущения обозначены на планах и разрезах. Исходная модель, PRD, TASKS и источники сохранены.
+
+ПРОХОДЫ ПРИ 90° — мм
+Дверь | Проём | Между коробками | Свободный просвет | Диапазон просвета
+Д01 | 900 | 790 | 750 | 700–800
+Д02 | 900 | 790 | 750 | 700–800
+Д03 | 900 | 790 | 750 | 750–750
+Д04 | 900 | 790 | 750 | 700–800
+Д05 | 800 | 690 | 650 | 600–700
+Д06 | 900 | 790 | 750 | 700–800
+Д07 | 800 | 690 | 650 | 600–700
+Д08 | 700 | 590 | 550 | 500–600
+Д09 | 700 | 590 | 550 | 500–600
+Д10 | 800 | 690 | 650 | 600–700
+Д11 | 700 | 590 | 550 | 500–600
+Д12 | 800 | 690 | 650 | 600–700
+Д13 | 800 | 690 | 650 | 600–700
+Д14 | 800 | 690 | 650 | 600–700
+
+ГРАНИЦЫ ПРОВЕРКИ
+Принятые коробки 50 мм, монтажные зазоры 5 мм, полотна 40 мм, притвор 3 мм предварительны.
+Д08, Д09 и Д11 дают около 550 мм свободного просвета; в диапазоне размеров — 500–600 мм.
+Ручки, мебель, лестница и маршруты с крупными предметами проверяются на следующих этапах.
+Движение ворот не оценивалось: механизм не задан. Их проём и восстановленная высота проверены.
+Крыша 120 мм по вертикали, сечения схемы ферм и пандус предварительные; расчёт несущих конструкций не выполнялся.
+Проверка движения использует поверхности реальных мешей, отсечённые по высоте полотна, и проверку вложения в объём.
+Круговые дуги огибаются касательными с ошибкой <=0,25 мм. Уточнение угла столкновения <=0,5 мм по концу полотна.
+Диапазоны ширины и привязки проверены консервативными непрерывными оболочками; граничные и номинальные сценарии сохранены.
+Прочие стыки и пересечения проверены геометрически и визуально; это не инженерная проверка всех конструктивных узлов.
+
+ВОСПРОИЗВЕДЕНИЕ
+Требуются Blender 5.2.1, Python 3.12 и Pillow. Дополнительные пакеты геометрии не требуются.
+Все команды выполняются из корня проекта. Фоновый Blender в этой среде требует запуска вне sandbox из-за сбоя Metal.
+python3 -m unittest discover -s tests -p 'test_*.py' -v
+Для нового экземпляра выбрать незанятые пути сцены и каталогов. prepare сохраняет исходную модель.
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --offline-mode --python-exit-code 1 --python scripts/blender_stage2_review.py -- prepare --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --offline-mode --python-exit-code 1 --python scripts/blender_stage2_review.py -- finish_geometry --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --offline-mode --python-exit-code 1 --python scripts/blender_stage2_review.py -- verify --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --offline-mode --python-exit-code 1 --python scripts/blender_stage2_review.py -- test --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --offline-mode --python-exit-code 1 --python scripts/blender_stage2_review.py -- preview --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+python3 scripts/review_doors.py --scene models/house_stage2_review.blend --output-dir data/stage2_review
+python3 scripts/report_stage2_review.py --scene models/house_stage2_review.blend --output-dir data/stage2_review --render-dir renders/stage2_review
+
+Свидетельства: manifest.json, stage2_validation.json, geometry_snapshot.json, door_review.json, stage2_negative_tests.json.
+Визуальная приёмка отражается отдельно в visual_qa.json; автоматические проверки её не заменяют.
+
+ИТОГОВАЯ ПРОВЕРКА
+Автоматические тесты: 24, успешно: True.
+Ручная визуальная проверка текущих изображений: True.
+Геометрия готова к рассмотрению: True.

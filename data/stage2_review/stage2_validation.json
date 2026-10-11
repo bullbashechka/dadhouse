@@ -1,0 +1,726 @@
+{
+  "ok": true,
+  "checks": {
+    "metric_units": {
+      "ok": true
+    },
+    "scale_length": {
+      "actual": 1.0,
+      "expected": 1,
+      "tolerance": 1e-09,
+      "ok": true
+    },
+    "walls_exist": {
+      "ok": true
+    },
+    "roof_exists": {
+      "ok": true
+    },
+    "ceiling_exists": {
+      "ok": true
+    },
+    "house_x": {
+      "actual": 12.0,
+      "expected": 12,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "house_x_origin": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "house_y": {
+      "actual": 10.0,
+      "expected": 10,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "house_y_origin": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "wall_top": {
+      "actual": 2.9000000953674316,
+      "expected": 2.9,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "wall_top_origin": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "kitchen_width": {
+      "actual": 5.0000005722045575,
+      "expected": 5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "kitchen_depth": {
+      "actual": 5.299999654517972,
+      "expected": 5.3,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "garage_width": {
+      "actual": 5.7999996185302605,
+      "expected": 5.8,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "garage_depth": {
+      "actual": 3.50000054495671,
+      "expected": 3.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_A_x": {
+      "actual": 5.7999996185302605,
+      "expected": 5.8,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_A_y": {
+      "actual": 3.50000054495671,
+      "expected": 3.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_B_x": {
+      "actual": 5.0000005722045575,
+      "expected": 5.0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_B_y": {
+      "actual": 5.299999654517972,
+      "expected": 5.3,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_C_x": {
+      "actual": 3.100000098443799,
+      "expected": 3.1,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_C_y": {
+      "actual": 3.5999998728434224,
+      "expected": 3.6,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_D_x": {
+      "actual": 3.099999944625362,
+      "expected": 3.1,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_D_y": {
+      "actual": 1.5,
+      "expected": 1.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_E_x": {
+      "actual": 1.199999825159696,
+      "expected": 1.2000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_E_y": {
+      "actual": 1.5,
+      "expected": 1.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_F_x": {
+      "actual": 1.2000000238418578,
+      "expected": 1.2000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_F_y": {
+      "actual": 1.9000000978770983,
+      "expected": 1.9,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_G_x": {
+      "actual": 1.199999825159696,
+      "expected": 1.2000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_G_y": {
+      "actual": 1.9000000978770983,
+      "expected": 1.9,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_H_x": {
+      "actual": 2.500000476837113,
+      "expected": 2.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_H_y": {
+      "actual": 2.2000002514232144,
+      "expected": 2.1999999999999993,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_I_x": {
+      "actual": 2.3000001990276746,
+      "expected": 2.299999999999999,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_I_y": {
+      "actual": 2.2000002514232144,
+      "expected": 2.1999999999999993,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_K_x": {
+      "actual": 2.500000476837113,
+      "expected": 2.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_K_y": {
+      "actual": 1.2000002721945136,
+      "expected": 1.2000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_L_x": {
+      "actual": 2.3000001990276746,
+      "expected": 2.299999999999999,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_L_y": {
+      "actual": 1.099999908967448,
+      "expected": 1.1000000000000005,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_J_lower_width": {
+      "actual": 2.4999998092651294,
+      "expected": 2.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_J_upper_width": {
+      "actual": 1.1000001257116072,
+      "expected": 1.1,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_J_left_depth": {
+      "actual": 3.199999815225596,
+      "expected": 3.2,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "room_J_right_depth": {
+      "actual": 1.5,
+      "expected": 1.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "outer_wall": {
+      "actual": 0.40000001415610287,
+      "expected": 0.4,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "spine": {
+      "actual": 0.4000000886618993,
+      "expected": 0.4,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "partition_200": {
+      "actual": 0.20000004433094964,
+      "expected": 0.2,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "partition_100": {
+      "actual": 0.09999990575011103,
+      "expected": 0.1,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "window_n1_through_wall": {
+      "ok": true
+    },
+    "window_n1_width": {
+      "actual": 1.4000000987734078,
+      "expected": 1.4000000000000001,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "window_n2_through_wall": {
+      "ok": true
+    },
+    "window_n2_width": {
+      "actual": 1.4000000987734078,
+      "expected": 1.4,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_north_through_wall": {
+      "ok": true
+    },
+    "door_north_width": {
+      "actual": 0.9000001006656166,
+      "expected": 0.8999999999999995,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_south_through_wall": {
+      "ok": true
+    },
+    "door_south_width": {
+      "actual": 0.9000003324614017,
+      "expected": 0.8999999999999999,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "window_w_through_wall": {
+      "ok": true
+    },
+    "window_w_width": {
+      "actual": 1.1999999245007809,
+      "expected": 1.2000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "garage_gate_through_wall": {
+      "ok": true
+    },
+    "garage_gate_width": {
+      "actual": 3.0000004768371205,
+      "expected": 3.0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "window_e_through_wall": {
+      "ok": true
+    },
+    "window_e_width": {
+      "actual": 1.5,
+      "expected": 1.5,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_terrace_through_wall": {
+      "ok": true
+    },
+    "door_terrace_width": {
+      "actual": 0.8999999682108556,
+      "expected": 0.8999999999999999,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_garage_through_wall": {
+      "ok": true
+    },
+    "door_garage_width": {
+      "actual": 0.8999998688697719,
+      "expected": 0.9000000000000004,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_kitchen_north_through_wall": {
+      "ok": true
+    },
+    "door_kitchen_north_width": {
+      "actual": 0.7999997302889369,
+      "expected": 0.7999999999999989,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_kitchen_west_through_wall": {
+      "ok": true
+    },
+    "door_kitchen_west_width": {
+      "actual": 0.8999998688697719,
+      "expected": 0.8999999999999999,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_bedroom_through_wall": {
+      "ok": true
+    },
+    "door_bedroom_width": {
+      "actual": 0.799999953806399,
+      "expected": 0.7999999999999998,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_mid_left_through_wall": {
+      "ok": true
+    },
+    "door_mid_left_width": {
+      "actual": 0.6999998152255769,
+      "expected": 0.7000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_small_through_wall": {
+      "ok": true
+    },
+    "door_small_width": {
+      "actual": 0.6999998152255769,
+      "expected": 0.6999999999999993,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_lower_w_through_wall": {
+      "ok": true
+    },
+    "door_lower_w_width": {
+      "actual": 0.799999953806399,
+      "expected": 0.7999999999999998,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_lower_e_through_wall": {
+      "ok": true
+    },
+    "door_lower_e_width": {
+      "actual": 0.7000002835477527,
+      "expected": 0.7000000000000002,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_upper_m_through_wall": {
+      "ok": true
+    },
+    "door_upper_m_width": {
+      "actual": 0.7999992460008882,
+      "expected": 0.8000000000000007,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_upper_e_through_wall": {
+      "ok": true
+    },
+    "door_upper_e_width": {
+      "actual": 0.8000001773237986,
+      "expected": 0.7999999999999989,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "door_upper_link_through_wall": {
+      "ok": true
+    },
+    "door_upper_link_width": {
+      "actual": 0.8000001773237986,
+      "expected": 0.7999999999999998,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "ceiling_bottom": {
+      "actual": 2.700000047683716,
+      "expected": 2.7,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "ceiling_top": {
+      "actual": 2.9000000953674316,
+      "expected": 2.9,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_0_joint_0": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_0_joint_1": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_0_joint_2": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_0_joint_3": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_1_joint_0": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_1_joint_1": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_1_joint_2": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_South_Post_1_joint_3": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_0_joint_0": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_0_joint_1": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_0_joint_2": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_0_joint_3": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_1_joint_0": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_1_joint_1": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_1_joint_2": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Porch_North_Post_1_joint_3": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_0_joint_0": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_0_joint_1": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_0_joint_2": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_0_joint_3": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_1_joint_0": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_1_joint_1": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_1_joint_2": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_1_joint_3": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_2_joint_0": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_2_joint_1": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_2_joint_2": {
+      "actual": 0.0,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "Terrace_Post_2_joint_3": {
+      "actual": -2.384185791015625e-07,
+      "expected": 0,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "ridge": {
+      "actual": 5.320000171661377,
+      "expected": 5.32,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "roof_width": {
+      "actual": 13.0,
+      "expected": 13,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "roof_depth": {
+      "actual": 11.0,
+      "expected": 11,
+      "tolerance": 0.001,
+      "ok": true
+    },
+    "slope_south": {
+      "actual": 20.000026423159614,
+      "expected": 20,
+      "tolerance": 0.1,
+      "ok": true
+    },
+    "slope_north": {
+      "actual": 27.999968093250732,
+      "expected": 28,
+      "tolerance": 0.1,
+      "ok": true
+    },
+    "closed_solids_outward_normals_no_duplicates": {
+      "ok": true
+    },
+    "source_PRD.md": {
+      "ok": true
+    },
+    "source_TASKS.md": {
+      "ok": true
+    },
+    "source_ЭП Жилой дом Ул.Ынтымак, 12 Солнечный 2-1.pdf": {
+      "ok": true
+    },
+    "stage1_register_unchanged": {
+      "ok": true
+    },
+    "Roof_Mansard_empty": {
+      "ok": true
+    },
+    "Roof_Gable_empty": {
+      "ok": true
+    },
+    "Roof_High_Kitchen_empty": {
+      "ok": true
+    }
+  },
+  "errors": [],
+  "topology_defects": [],
+  "naming_complete": false,
+  "unresolved_room_names": [
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "stage_complete": false,
+  "reopened_file": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2_review.blend",
+  "scene_sha256": "37fecf6b2ea97e838fdc208ae33fa1b4b0a2d77e8a8fd161ba52226024ad5ab8",
+  "geometry_hash_matches": true,
+  "resource_errors": [],
+  "review_checks": {
+    "garage_ramp_present": true,
+    "garage_ramp_x": true,
+    "garage_ramp_y": true,
+    "garage_ramp_z": true,
+    "window_n1_head_height": true,
+    "window_n1_sill_height": true,
+    "window_n2_head_height": true,
+    "window_n2_sill_height": true,
+    "door_north_head_height": true,
+    "door_south_head_height": true,
+    "window_w_head_height": true,
+    "window_w_sill_height": true,
+    "garage_gate_head_height": true,
+    "window_e_head_height": true,
+    "window_e_sill_height": true,
+    "door_terrace_head_height": true,
+    "door_garage_head_height": true,
+    "door_kitchen_north_head_height": true,
+    "door_kitchen_west_head_height": true,
+    "door_bedroom_head_height": true,
+    "door_mid_left_head_height": true,
+    "door_small_head_height": true,
+    "door_lower_w_head_height": true,
+    "door_lower_e_head_height": true,
+    "door_upper_m_head_height": true,
+    "door_upper_e_head_height": true,
+    "door_upper_link_head_height": true,
+    "upper_window_owned_by_original_roof": true,
+    "canopies_owned_by_base": true,
+    "roof_switch_hides_upper_window": true,
+    "roof_switch_keeps_ground_geometry": true,
+    "visibility_restored": true,
+    "protected_files_unchanged": true,
+    "saved_revision_digest": true
+  },
+  "geometry_verified": true,
+  "naming_deferred": true
+}

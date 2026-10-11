@@ -1,0 +1,27 @@
+{
+  "scene_path": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2_review.blend",
+  "scene_sha256": "37fecf6b2ea97e838fdc208ae33fa1b4b0a2d77e8a8fd161ba52226024ad5ab8",
+  "source_scene": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2.blend",
+  "protected_sha256": {
+    "PRD.md": "fa488b2a3de48086eda9ce6ebc03d2150f3438845fbfec412690bf9894af3dbf",
+    "TASKS.md": "b50320b540ece8f8140f38f8ea74493f8cb5437fd6c62cb92da331cfce7196e8",
+    "models/house_stage1.blend": "b50cbf76683f00ec1ac3ab80ca9a9b7c6578eb0b661c6495cd18e086c990f0a7",
+    "models/house_stage2.blend": "fa7f341961682d056acac8e1f2a55f01b6c92ac79e51254199fe654249642504",
+    "data/house_spec.json": "e71057ecfff0274cd95db86001b6282f3b80d414ad6f3631287bb04dbf4066c5",
+    "data/house_stage2_geometry.json": "005ac49eadc148e1c27fa5c2bb19de3fdd35ba1be2cdf8849408d5f6ded29d29",
+    "ЭП Жилой дом Ул.Ынтымак, 12 Солнечный 2-1.pdf": "8c0cc2ebf590b01549cd7544e91f1ad19fc38415cf419ff3a48bcfbb3399f17e"
+  },
+  "geometry_sha256": "005ac49eadc148e1c27fa5c2bb19de3fdd35ba1be2cdf8849408d5f6ded29d29",
+  "identity": {
+    "pid": 17600,
+    "file": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2_review.blend",
+    "version": "5.2.1 LTS",
+    "scene": "House_Stage2_Review",
+    "engine": "BLENDER_WORKBENCH"
+  },
+  "scope": "geometry review; C–L names deferred",
+  "authorization": "реализуй план",
+  "additional_assumptions": [
+    "Garage ramp run 3000 mm reconstructed from facade; width 3000 mm, rise 600 mm."
+  ]
+}

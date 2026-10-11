@@ -1,0 +1,16 @@
+{
+  "scene_path": "/Users/kirillsaidashev/Documents/Projects/dadhouse/models/house_stage2_review.blend",
+  "scene_sha256": "37fecf6b2ea97e838fdc208ae33fa1b4b0a2d77e8a8fd161ba52226024ad5ab8",
+  "images": {
+    "02_original_room_with_ceiling.png": "b04554d2d212fb6861dbb8a7e2f97644751ad62ab69e692610bfae80f40bf4d0",
+    "facade_east.png": "33d18de1b70888a2e3183492077e2ddab7d0ae04ccbd6b48be41a85a24c4782e",
+    "facade_west.png": "a59a26782c1d8317b9db05d1b0b59ee0f7d0986d8281f3a5d507a8832b375579",
+    "facade_north.png": "dbb28ea4f394b35f8d15d6a11238047e609117827f6fe566d49980c9b7ebaee1",
+    "section_kitchen.png": "5dbcd68a0a21dd93860edb4f3c219a39a9e3066cc8155d3293c6e9310d527975",
+    "facade_south.png": "e47adc4d7edda70ca433ee0b7e2e0d7125dc23f5dda4633fc631c40e9e474b61",
+    "03_diagnostic_cutaway.png": "dc18c4510f89776ba369572b25d91925ee7b56b5abdbd0b15963f0426f63ea8a",
+    "section_garage.png": "7f7e8e0958cb3394b2b2dab37526426ba8109561d7d6fedbc131f5a9b0d0fc27",
+    "01_original_exterior.png": "62610feecff3b2ed904f8c34d0aaa2d472b042cbc4d167f783944d4bef7799a0"
+  },
+  "engine": "BLENDER_WORKBENCH"
+}

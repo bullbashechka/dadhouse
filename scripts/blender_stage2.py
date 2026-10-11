@@ -25,6 +25,8 @@ from blender_stage2_checks import measure
 SPEC_PATH=ROOT/'data/house_stage2_geometry.json'
 TARGET=ROOT/'models/house_stage2.blend'
 RECEIPT=ROOT/'data/stage2_build.json'
+DATA_OUTPUT=ROOT/'data'
+RENDER_OUTPUT=ROOT/'renders/stage2'
 SPEC=json.loads(SPEC_PATH.read_text())
 COLS={}
 MATS={}
@@ -323,7 +325,7 @@ def build():
     setup_cameras()
     bpy.context.view_layer.update()
     result=measure(SPEC,ROOT)
-    save_json(ROOT/'data/stage2_build_validation.json',result)
+    save_json(DATA_OUTPUT/'stage2_build_validation.json',result)
     if not result['ok']:
         print(json.dumps(result,ensure_ascii=False))
         # Keep a separate diagnostic file, never publish a failed candidate as the accepted deliverable.
@@ -361,7 +363,7 @@ def verify():
     result['resource_errors']=[im.filepath for im in bpy.data.images if im.source=='FILE' and not im.packed_file and not Path(bpy.path.abspath(im.filepath)).is_file()]
     result['ok']=result['ok'] and result['geometry_hash_matches'] and not result['resource_errors']
     result['stage_complete']=result['ok'] and result['naming_complete']
-    save_json(ROOT/'data/stage2_validation.json',result)
+    save_json(DATA_OUTPUT/'stage2_validation.json',result)
     print(json.dumps({k:v for k,v in result.items() if k!='checks'},ensure_ascii=False))
     if not result['ok']:raise RuntimeError('Saved scene verification failed')
 
@@ -399,7 +401,7 @@ def negative_tests():
     caught='source_'+altered['sources'][0]['path'] in measure(altered,ROOT)['errors']
     cases.append(dict(case='changed source digest',rejected=caught))
     result=dict(ok=all(c['rejected'] for c in cases),cases=cases,restored_baseline=measure(SPEC,ROOT)['ok'])
-    save_json(ROOT/'data/stage2_negative_tests.json',result)
+    save_json(DATA_OUTPUT/'stage2_negative_tests.json',result)
     print(json.dumps(result,ensure_ascii=False))
     if not result['ok'] or not result['restored_baseline']:raise RuntimeError('Negative scenario not detected')
 
@@ -437,7 +439,7 @@ def slice_objects(x):
 
 def preview():
     ensure_open()
-    scene=bpy.context.scene;out=ROOT/'renders/stage2';out.mkdir(parents=True,exist_ok=True)
+    scene=bpy.context.scene;out=RENDER_OUTPUT;out.mkdir(parents=True,exist_ok=True)
     def render(name,cam,width=2400,height=1500):
         scene.camera=bpy.data.objects[cam];scene.render.resolution_x=width;scene.render.resolution_y=height
         scene.render.filepath=str(out/(name+'.png'));bpy.ops.render.render(write_still=True)
@@ -465,6 +467,16 @@ def preview():
     print('Previews only; saved baseline was not changed.')
 
 
-parser=argparse.ArgumentParser();parser.add_argument('action',choices=['build','verify','preview','test'])
-args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
-{'build':build,'verify':verify,'preview':preview,'test':negative_tests}[args.action]()
+if __name__ == '__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('action', choices=['build','verify','preview','test'])
+    parser.add_argument('--scene', type=Path, default=TARGET)
+    parser.add_argument('--output-dir', type=Path, default=DATA_OUTPUT)
+    parser.add_argument('--render-dir', type=Path, default=RENDER_OUTPUT)
+    args=parser.parse_args(sys.argv[sys.argv.index('--')+1:])
+    TARGET=args.scene.resolve()
+    DATA_OUTPUT=args.output_dir.resolve()
+    RENDER_OUTPUT=args.render_dir.resolve()
+    DATA_OUTPUT.mkdir(parents=True, exist_ok=True)
+    RECEIPT=DATA_OUTPUT/'stage2_build.json'
+    {'build':build,'verify':verify,'preview':preview,'test':negative_tests}[args.action]()
