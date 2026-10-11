@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "case": "incorrect scene scale",
+      "rejected": true,
+      "errors": [
+        "scale_length"
+      ]
+    },
+    {
+      "case": "wall shifted 100 mm",
+      "rejected": true,
+      "errors": [
+        "house_x",
+        "house_x_origin",
+        "door_upper_link_width"
+      ]
+    },
+    {
+      "case": "ridge shifted 65 mm",
+      "rejected": true,
+      "errors": [
+        "ridge"
+      ]
+    },
+    {
+      "case": "collapsed garage doorway",
+      "rejected": true,
+      "errors": [
+        "door_garage_through_wall",
+        "door_garage_width"
+      ]
+    },
+    {
+      "case": "duplicate surface",
+      "rejected": true,
+      "errors": [
+        "closed_solids_outward_normals_no_duplicates"
+      ]
+    },
+    {
+      "case": "changed source digest",
+      "rejected": true
+    }
+  ],
+  "restored_baseline": true
+}

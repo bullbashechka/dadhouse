@@ -1,0 +1,1168 @@
+{
+  "schema_version": 1,
+  "linear_unit": "mm",
+  "stage": 2,
+  "authorization": "User: реализуй план, following approved stage 2 plan",
+  "stage1_spec_sha256": "e71057ecfff0274cd95db86001b6282f3b80d414ad6f3631287bb04dbf4066c5",
+  "sources": [
+    {
+      "path": "PRD.md",
+      "sha256": "fa488b2a3de48086eda9ce6ebc03d2150f3438845fbfec412690bf9894af3dbf"
+    },
+    {
+      "path": "TASKS.md",
+      "sha256": "b50320b540ece8f8140f38f8ea74493f8cb5437fd6c62cb92da331cfce7196e8"
+    },
+    {
+      "path": "ЭП Жилой дом Ул.Ынтымак, 12 Солнечный 2-1.pdf",
+      "sha256": "8c0cc2ebf590b01549cd7544e91f1ad19fc38415cf419ff3a48bcfbb3399f17e"
+    }
+  ],
+  "coordinates": {
+    "origin": "southwest outside corner",
+    "x": "right on PDF",
+    "y": "up on PDF",
+    "z": "up"
+  },
+  "extraction": {
+    "method": "PDF vector paths via pdftocairo; independent X/Y calibration",
+    "page_bounds_pt": [
+      246.6,
+      216.14,
+      586.74,
+      499.58
+    ],
+    "calibration_mm": [
+      12000,
+      10000
+    ],
+    "unsigned_snap_mm": 10
+  },
+  "walls": [
+    {
+      "id": "south",
+      "rect_mm": [
+        0,
+        0,
+        12000,
+        400
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "north",
+      "rect_mm": [
+        0,
+        9600,
+        12000,
+        10000
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "west",
+      "rect_mm": [
+        0,
+        400,
+        400,
+        9600
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "east",
+      "rect_mm": [
+        11600,
+        400,
+        12000,
+        9600
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "spine",
+      "rect_mm": [
+        6200,
+        400,
+        6600,
+        9600
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "cross",
+      "rect_mm": [
+        400,
+        5700,
+        11600,
+        6100
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "west_partition",
+      "rect_mm": [
+        3500,
+        400,
+        3700,
+        5700
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "west_mid",
+      "rect_mm": [
+        400,
+        4000,
+        3500,
+        4200
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "south_cells",
+      "rect_mm": [
+        3700,
+        2300,
+        6200,
+        2500
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "south_divider",
+      "rect_mm": [
+        4900,
+        400,
+        5000,
+        2300
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "small_west",
+      "rect_mm": [
+        4800,
+        4000,
+        5000,
+        5700
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "small_south",
+      "rect_mm": [
+        4800,
+        4000,
+        6200,
+        4200
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "north_divider",
+      "rect_mm": [
+        9100,
+        6100,
+        9300,
+        9600
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "north_mid",
+      "rect_mm": [
+        6600,
+        7300,
+        9100,
+        7400
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "north_east",
+      "rect_mm": [
+        9300,
+        7200,
+        11600,
+        7400
+      ],
+      "z_mm": [
+        0,
+        2900
+      ],
+      "source_page": 2
+    }
+  ],
+  "openings": [
+    {
+      "id": "window_n1",
+      "wall": "north",
+      "axis": "x",
+      "interval_mm": [
+        1300,
+        2700
+      ],
+      "z_mm": [
+        900,
+        2100
+      ],
+      "kind": "window",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        1400,
+        1400
+      ],
+      "position_range_mm": [
+        1250,
+        1350
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "schematic; side from plan, angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "window_n2",
+      "wall": "north",
+      "axis": "x",
+      "interval_mm": [
+        3900,
+        5300
+      ],
+      "z_mm": [
+        900,
+        2100
+      ],
+      "kind": "window",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        1400,
+        1400
+      ],
+      "position_range_mm": [
+        3850,
+        3950
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "schematic; side from plan, angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_north",
+      "wall": "north",
+      "axis": "x",
+      "interval_mm": [
+        6900,
+        7800
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        850,
+        950
+      ],
+      "position_range_mm": [
+        6850,
+        6950
+      ],
+      "hinge": "high",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_south",
+      "wall": "south",
+      "axis": "x",
+      "interval_mm": [
+        3860,
+        4760
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        850,
+        950
+      ],
+      "position_range_mm": [
+        3810,
+        3910
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "window_w",
+      "wall": "west",
+      "axis": "y",
+      "interval_mm": [
+        1900,
+        3100
+      ],
+      "z_mm": [
+        900,
+        2100
+      ],
+      "kind": "window",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        1200,
+        1200
+      ],
+      "position_range_mm": [
+        1850,
+        1950
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "schematic; side from plan, angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "garage_gate",
+      "wall": "west",
+      "axis": "y",
+      "interval_mm": [
+        6350,
+        9350
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "gate",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        3000,
+        3000
+      ],
+      "position_range_mm": [
+        6300,
+        6400
+      ],
+      "hinge": "low",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "schematic; side from plan, angle illustrative",
+      "source_page": 2,
+      "height_status": "reconstructed_from_facade_alignment"
+    },
+    {
+      "id": "window_e",
+      "wall": "east",
+      "axis": "y",
+      "interval_mm": [
+        2150,
+        3650
+      ],
+      "z_mm": [
+        900,
+        2100
+      ],
+      "kind": "window",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        1500,
+        1500
+      ],
+      "position_range_mm": [
+        2100,
+        2200
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "schematic; side from plan, angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_terrace",
+      "wall": "east",
+      "axis": "y",
+      "interval_mm": [
+        625,
+        1525
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "dimensioned",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        900,
+        900
+      ],
+      "position_range_mm": [
+        575,
+        675
+      ],
+      "hinge": "low",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_garage",
+      "wall": "cross",
+      "axis": "x",
+      "interval_mm": [
+        3800,
+        4700
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        850,
+        950
+      ],
+      "position_range_mm": [
+        3750,
+        3850
+      ],
+      "hinge": "low",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_kitchen_north",
+      "wall": "cross",
+      "axis": "x",
+      "interval_mm": [
+        7400,
+        8200
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        7350,
+        7450
+      ],
+      "hinge": "low",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_kitchen_west",
+      "wall": "spine",
+      "axis": "y",
+      "interval_mm": [
+        2700,
+        3600
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        850,
+        950
+      ],
+      "position_range_mm": [
+        2650,
+        2750
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_bedroom",
+      "wall": "west_partition",
+      "axis": "y",
+      "interval_mm": [
+        3000,
+        3800
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        2950,
+        3050
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_mid_left",
+      "wall": "west_mid",
+      "axis": "x",
+      "interval_mm": [
+        2400,
+        3100
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        650,
+        750
+      ],
+      "position_range_mm": [
+        2350,
+        2450
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_small",
+      "wall": "small_south",
+      "axis": "x",
+      "interval_mm": [
+        5400,
+        6100
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        650,
+        750
+      ],
+      "position_range_mm": [
+        5350,
+        5450
+      ],
+      "hinge": "low",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_lower_w",
+      "wall": "south_cells",
+      "axis": "x",
+      "interval_mm": [
+        3910,
+        4710
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        3860,
+        3960
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_lower_e",
+      "wall": "south_cells",
+      "axis": "x",
+      "interval_mm": [
+        5200,
+        5900
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        650,
+        750
+      ],
+      "position_range_mm": [
+        5150,
+        5250
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_upper_m",
+      "wall": "north_mid",
+      "axis": "x",
+      "interval_mm": [
+        8100,
+        8900
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        8050,
+        8150
+      ],
+      "hinge": "high",
+      "swing_sign": -1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_upper_e",
+      "wall": "north_east",
+      "axis": "x",
+      "interval_mm": [
+        9400,
+        10200
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        9350,
+        9450
+      ],
+      "hinge": "high",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    },
+    {
+      "id": "door_upper_link",
+      "wall": "north_divider",
+      "axis": "y",
+      "interval_mm": [
+        6250,
+        7050
+      ],
+      "z_mm": [
+        0,
+        2100
+      ],
+      "kind": "door",
+      "width_status": "reconstructed",
+      "position_status": "reconstructed_from_pdf_vectors",
+      "width_range_mm": [
+        750,
+        850
+      ],
+      "position_range_mm": [
+        6200,
+        6300
+      ],
+      "hinge": "low",
+      "swing_sign": 1,
+      "swing_deg": 30,
+      "swing_status": "hinge and opening side visually transcribed from PDF page 2; 30-degree display angle illustrative",
+      "source_page": 2,
+      "height_status": "dimensioned"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "name": "Гараж",
+      "explication_id": 3,
+      "polygon_mm": [
+        [
+          400,
+          6100
+        ],
+        [
+          6200,
+          6100
+        ],
+        [
+          6200,
+          9600
+        ],
+        [
+          400,
+          9600
+        ]
+      ],
+      "area_m2": 20.3,
+      "naming_status": "user_confirmed"
+    },
+    {
+      "id": "B",
+      "name": "Кухня-гостиная",
+      "explication_id": 7,
+      "polygon_mm": [
+        [
+          6600,
+          400
+        ],
+        [
+          11600,
+          400
+        ],
+        [
+          11600,
+          5700
+        ],
+        [
+          6600,
+          5700
+        ]
+      ],
+      "area_m2": 26.5,
+      "naming_status": "user_confirmed"
+    },
+    {
+      "id": "C",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          400,
+          400
+        ],
+        [
+          3500,
+          400
+        ],
+        [
+          3500,
+          4000
+        ],
+        [
+          400,
+          4000
+        ]
+      ],
+      "area_m2": 11.16,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "D",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          400,
+          4200
+        ],
+        [
+          3500,
+          4200
+        ],
+        [
+          3500,
+          5700
+        ],
+        [
+          400,
+          5700
+        ]
+      ],
+      "area_m2": 4.65,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "E",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          5000,
+          4200
+        ],
+        [
+          6200,
+          4200
+        ],
+        [
+          6200,
+          5700
+        ],
+        [
+          5000,
+          5700
+        ]
+      ],
+      "area_m2": 1.8,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "F",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          3700,
+          400
+        ],
+        [
+          4900,
+          400
+        ],
+        [
+          4900,
+          2300
+        ],
+        [
+          3700,
+          2300
+        ]
+      ],
+      "area_m2": 2.28,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "G",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          5000,
+          400
+        ],
+        [
+          6200,
+          400
+        ],
+        [
+          6200,
+          2300
+        ],
+        [
+          5000,
+          2300
+        ]
+      ],
+      "area_m2": 2.28,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "H",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          6600,
+          7400
+        ],
+        [
+          9100,
+          7400
+        ],
+        [
+          9100,
+          9600
+        ],
+        [
+          6600,
+          9600
+        ]
+      ],
+      "area_m2": 5.5,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "I",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          9300,
+          7400
+        ],
+        [
+          11600,
+          7400
+        ],
+        [
+          11600,
+          9600
+        ],
+        [
+          9300,
+          9600
+        ]
+      ],
+      "area_m2": 5.06,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "J",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          3700,
+          2500
+        ],
+        [
+          6200,
+          2500
+        ],
+        [
+          6200,
+          4000
+        ],
+        [
+          4800,
+          4000
+        ],
+        [
+          4800,
+          5700
+        ],
+        [
+          3700,
+          5700
+        ]
+      ],
+      "area_m2": 5.62,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "K",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          6600,
+          6100
+        ],
+        [
+          9100,
+          6100
+        ],
+        [
+          9100,
+          7300
+        ],
+        [
+          6600,
+          7300
+        ]
+      ],
+      "area_m2": 3.0,
+      "naming_status": "unresolved"
+    },
+    {
+      "id": "L",
+      "name": null,
+      "explication_id": null,
+      "polygon_mm": [
+        [
+          9300,
+          6100
+        ],
+        [
+          11600,
+          6100
+        ],
+        [
+          11600,
+          7200
+        ],
+        [
+          9300,
+          7200
+        ]
+      ],
+      "area_m2": 2.53,
+      "naming_status": "unresolved"
+    }
+  ],
+  "roof": {
+    "ridge_y_mm": 5900,
+    "ridge_z_mm": 5320,
+    "slope_south_deg": 20,
+    "slope_north_deg": 28,
+    "x_mm": [
+      -500,
+      12500
+    ],
+    "y_mm": [
+      -500,
+      10500
+    ],
+    "thickness_mm": 120,
+    "thickness_status": "reconstructed visual envelope from PDF section, not structural design",
+    "inner_ridge_node_z_mm": 4770
+  },
+  "assumptions": [
+    "Плита пола 200 мм вниз от Z=0; конструктивный состав не задан.",
+    "Потолочное перекрытие: низ +2700, верх +2900 по разрезам; разделено со стенами без наложения.",
+    "Оболочка исходной кровли 120 мм вертикально по масштабу разреза; фермы показаны отдельно. 350–450 мм из этапа 1 относятся к будущей проверке альтернатив.",
+    "Сечение показанных элементов стропильной схемы 100 × 150 мм, условно; шаг конструкций на PDF не задан, показаны две схемы по разрезам.",
+    "Дверная коробка 50 мм, глубина 100 мм, полотно 40 мм, монтажные зазоры 5 мм; предварительно.",
+    "Условные оконные рамы 60 мм, глубина 80 мм; без спецификации производителя.",
+    "Ворота: верх +2100 восстановлен по совмещению с верхом окна фасада, не отдельный подписанный размер.",
+    "Площадки крылец и террасы −20 мм; для террасы отметка принята по фасаду. Земля −600 мм.",
+    "Четыре подъёма наружных ступеней по 145 мм до −20; глубина проступи 300 мм. Количество и размеры не подписаны.",
+    "Навесы: наружные габариты по плану и фасадам, панели 80 мм; подписи +2200/+2400/+2600 относятся к разным примыканиям.",
+    "Неподписанные ширины дверей повторно сняты с векторов PDF; сценарий ±50 мм сохранён. Это не точность строительного обмера.",
+    "В малых помещениях есть расхождения площадей с экспликацией; названия D–L требуют подтверждения.",
+    "Терраса вылет 3000, длина 6200; северный край Y=6150 по цепочке 3850, южный край Y=−50. Расхождение 50 мм с углом дома не сглажено."
+  ],
+  "naming_followup": "Пользователь подтвердил A — гараж, B — кухня-гостиная с будущей антресолью. Назначения C–L ожидают уточнения от отца."
+}
