@@ -4,7 +4,7 @@
   "geometry_verified": true,
   "door_review_complete": true,
   "naming_deferred": true,
-  "stage_complete": false,
+  "stage_complete": true,
   "checks": 160,
   "negative_scenarios_passed": true,
   "images": {
@@ -28,5 +28,10 @@
     "errors": 0
   },
   "protected_sources_unchanged": true,
-  "geometry_ready_for_review": true
+  "geometry_ready_for_review": true,
+  "stage_closed_date": "2026-10-12",
+  "stage_closure_basis": "Указание пользователя закрыть этап 2, сохранив незаполненные назначения C–L.",
+  "outstanding_items": [
+    "Назначения помещений C–L не заполнены, включая привязку котельной; уточнить перед зависимыми работами."
+  ]
 }
