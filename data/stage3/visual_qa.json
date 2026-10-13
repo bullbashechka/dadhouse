@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-10-12T09:09:41.971302+00:00",
+  "scene_sha256": "47ffeba7643affbce2ede04527aed7ed9c1d7b58385663b962364bf3feb65ef7",
+  "manual_visual_review": {
+    "technical_comparison_sheets": "passed",
+    "scope": "Проверены шесть итоговых листов: читаемость, отсутствие обрезанных подписей, сравнимость ракурсов, обозначение ограничений. Это ручная визуальная проверка, не автоматический тест.",
+    "images": {
+      "renders/stage3/00_roof_comparison.png": "cc17f9f75915221ac88d094f3c82d59154c1ed82b9e772e42a8ea4126a065949",
+      "renders/stage3/01_sections.png": "7bf1435d10ff5d15623e42844c580372c23070af723b91a6591a768988b2b952",
+      "renders/stage3/02_layout.png": "e43296b9f3214e8692db8d722c798be9ff4e898d84d8e0bb74823b927d527b2f",
+      "renders/stage3/03_edge_cases.png": "8ff8e5ec08715ceb2329dda330c9217e089cbd9c06558e3c93e74c48a095c4d9",
+      "renders/stage3/04_profiles.png": "3cc9018ef6a2839e28a26e59eb8b29981f28fb910ab63db156cbac18e0c040c3",
+      "renders/stage3/05_platform_sizes.png": "8092d0331752d88b4d4e0d01df58b259c6bf9c5d723951bcfe60714e2a106458"
+    }
+  },
+  "background_reopen_verified": true,
+  "native_gui_verified": false,
+  "native_gui_limitation": "Попытка получить окно Blender через CUA завершилась cgWindowNotFound. Повторное открытие и проверки выполнены в фоновом Blender.",
+  "limitations": [
+    "Технические превью Workbench; физическое освещение и вид стекла не проверялись.",
+    "Надстройки стен и опирание требуют отдельного согласования и конструктивного расчёта.",
+    "Полный сценарий использования стола на шесть человек не проверен."
+  ]
+}

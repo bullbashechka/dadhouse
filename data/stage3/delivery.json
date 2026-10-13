@@ -1,0 +1,24 @@
+{
+  "status": "preliminary_concepts_ready_for_owner_review",
+  "stage_accepted": false,
+  "scene": "models/house_stage3.blend",
+  "review_page": "data/stage3/index.html",
+  "comparison": "renders/stage3/00_roof_comparison.png",
+  "scene_sha256": "47ffeba7643affbce2ede04527aed7ed9c1d7b58385663b962364bf3feb65ef7",
+  "automated_checks_passed": 215,
+  "unit_tests_passed": 34,
+  "candidate_combinations": 48,
+  "protected_sources_unchanged": true,
+  "visual_qa": "data/stage3/visual_qa.json",
+  "open_items": [
+    "Согласование предложенных надстроек над стенами, включая гараж.",
+    "Проверка использования стола на шесть человек.",
+    "Конструктивный расчёт опирания, лестниц, ограждений, кровли и водоотвода."
+  ],
+  "resolved_defects": [
+    "Устранено пересечение оболочки крыши с верхом стен.",
+    "Закрыта граница верхнего объёма гостиной с соседними помещениями.",
+    "Нижний маршрут скорректирован с учётом реальной опоры лестницы.",
+    "Исправлены площади компактной антресоли и размещение подписей на схемах."
+  ]
+}

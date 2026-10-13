@@ -1,0 +1,22 @@
+{
+  "scene_sha256": "47ffeba7643affbce2ede04527aed7ed9c1d7b58385663b962364bf3feb65ef7",
+  "images": [
+    "Original_exterior.png",
+    "mansard_exterior.png",
+    "mansard_interior.png",
+    "mansard_upper.png",
+    "mansard_compact_interior.png",
+    "mansard_cutaway.png",
+    "gable_exterior.png",
+    "gable_interior.png",
+    "gable_upper.png",
+    "gable_compact_interior.png",
+    "gable_cutaway.png",
+    "high_kitchen_exterior.png",
+    "high_kitchen_interior.png",
+    "high_kitchen_upper.png",
+    "high_kitchen_compact_interior.png",
+    "high_kitchen_cutaway.png"
+  ],
+  "engine": "BLENDER_WORKBENCH"
+}

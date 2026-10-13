@@ -1,0 +1,12 @@
+test_fit_covers_entire_required_rectangle (test_stage3.Stage3GeometryTests.test_fit_covers_entire_required_rectangle) ... ok
+test_height_boundary_is_not_dimension_tolerance (test_stage3.Stage3GeometryTests.test_height_boundary_is_not_dimension_tolerance) ... ok
+test_layouts_preserve_kitchen_and_two_sleepers (test_stage3.Stage3GeometryTests.test_layouts_preserve_kitchen_and_two_sleepers) ... ok
+test_normal_thickness_not_vertical (test_stage3.Stage3GeometryTests.test_normal_thickness_not_vertical) ... ok
+test_overlap_and_shared_boundary (test_stage3.Stage3GeometryTests.test_overlap_and_shared_boundary) ... ok
+test_reject_outside_roof (test_stage3.Stage3GeometryTests.test_reject_outside_roof) ... ok
+test_route_edges_not_just_ridge (test_stage3.Stage3GeometryTests.test_route_edges_not_just_ridge) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

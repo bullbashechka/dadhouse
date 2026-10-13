@@ -1,0 +1,26 @@
+test_fit_covers_entire_required_rectangle (test_stage3.Stage3GeometryTests.test_fit_covers_entire_required_rectangle) ... ok
+test_height_boundary_is_not_dimension_tolerance (test_stage3.Stage3GeometryTests.test_height_boundary_is_not_dimension_tolerance) ... ok
+test_layouts_preserve_kitchen_and_two_sleepers (test_stage3.Stage3GeometryTests.test_layouts_preserve_kitchen_and_two_sleepers) ... ok
+test_narrow_turn_is_not_a_metre_wide_route (test_stage3.Stage3GeometryTests.test_narrow_turn_is_not_a_metre_wide_route) ... ok
+test_normal_thickness_not_vertical (test_stage3.Stage3GeometryTests.test_normal_thickness_not_vertical) ... ok
+test_outboard_stringer_blocks_a_tread_only_clearance (test_stage3.Stage3GeometryTests.test_outboard_stringer_blocks_a_tread_only_clearance) ... ERROR
+test_overlap_and_shared_boundary (test_stage3.Stage3GeometryTests.test_overlap_and_shared_boundary) ... ok
+test_reject_outside_roof (test_stage3.Stage3GeometryTests.test_reject_outside_roof) ... ok
+test_route_edges_not_just_ridge (test_stage3.Stage3GeometryTests.test_route_edges_not_just_ridge) ... ok
+test_route_must_have_floor_under_whole_width (test_stage3.Stage3GeometryTests.test_route_must_have_floor_under_whole_width) ... ok
+
+======================================================================
+ERROR: test_outboard_stringer_blocks_a_tread_only_clearance (test_stage3.Stage3GeometryTests.test_outboard_stringer_blocks_a_tread_only_clearance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/dadhouse/tests/test_stage3.py", line 60, in test_outboard_stringer_blocks_a_tread_only_clearance
+    obstacles=stair_ground_obstacles(layout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/dadhouse/scripts/geometry_stage3.py", line 256, in stair_ground_obstacles
+    raise NotImplementedError
+NotImplementedError
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+FAILED (errors=1)
