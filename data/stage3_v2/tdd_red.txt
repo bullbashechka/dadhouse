@@ -1,0 +1,77 @@
+test_both_entries_must_connect (test_stage3_v2.RevisionTwoTests.test_both_entries_must_connect) ... ERROR
+test_corridor_900_boundary (test_stage3_v2.RevisionTwoTests.test_corridor_900_boundary) ... ERROR
+test_guest_mode_is_real_six_seats (test_stage3_v2.RevisionTwoTests.test_guest_mode_is_real_six_seats) ... ERROR
+test_media_zone_not_a_shortcut (test_stage3_v2.RevisionTwoTests.test_media_zone_not_a_shortcut) ... ERROR
+test_side_stair_and_actual_floor (test_stage3_v2.RevisionTwoTests.test_side_stair_and_actual_floor) ... ERROR
+test_sight_ray_three_dimensions (test_stage3_v2.RevisionTwoTests.test_sight_ray_three_dimensions) ... ERROR
+
+======================================================================
+ERROR: test_both_entries_must_connect (test_stage3_v2.RevisionTwoTests.test_both_entries_must_connect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 9, in test_both_entries_must_connect
+    r=connected_paths([[2000,0,3000,5300]],{'D06':(1000,2750),'D05':(4000,4800)}, {'terrace':(4550,700)})
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 3, in connected_paths
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_corridor_900_boundary (test_stage3_v2.RevisionTwoTests.test_corridor_900_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 15, in test_corridor_900_boundary
+    r=connected_paths([[0,0,2000,5300],[2000+width,0,5000,5300]],{'a':(2450,1000)}, {'b':(2450,4000)})
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 3, in connected_paths
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_guest_mode_is_real_six_seats (test_stage3_v2.RevisionTwoTests.test_guest_mode_is_real_six_seats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 26, in test_guest_mode_is_real_six_seats
+    c=make_candidate()
+      ^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 9, in make_candidate
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_media_zone_not_a_shortcut (test_stage3_v2.RevisionTwoTests.test_media_zone_not_a_shortcut)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 18, in test_media_zone_not_a_shortcut
+    r=connected_paths([],{'a':(1000,1000)},{'b':(4000,1000)},[[2000,0,3000,5300]])
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 3, in connected_paths
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_side_stair_and_actual_floor (test_stage3_v2.RevisionTwoTests.test_side_stair_and_actual_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 32, in test_side_stair_and_actual_floor
+    c=make_candidate()
+      ^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 9, in make_candidate
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_sight_ray_three_dimensions (test_stage3_v2.RevisionTwoTests.test_sight_ray_three_dimensions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 22, in test_sight_ray_three_dimensions
+    self.assertTrue(segment_clear(*ray,[[2000,500,0,3000,1500,850]]))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/scripts/geometry_stage3_v2.py", line 6, in segment_clear
+    raise NotImplementedError
+NotImplementedError
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=6)

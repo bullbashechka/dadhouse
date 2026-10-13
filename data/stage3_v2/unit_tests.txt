@@ -1,0 +1,47 @@
+test_above_door_lintel_is_excluded_from_collision (test_review_geometry.ReviewGeometryTests.test_above_door_lintel_is_excluded_from_collision) ... ok
+test_contact_is_not_penetration (test_review_geometry.ReviewGeometryTests.test_contact_is_not_penetration) ... ok
+test_containment_is_collision (test_review_geometry.ReviewGeometryTests.test_containment_is_collision) ... ok
+test_frame_and_leaf_reduce_clear_width (test_review_geometry.ReviewGeometryTests.test_frame_and_leaf_reduce_clear_width) ... ok
+test_free_sweep (test_review_geometry.ReviewGeometryTests.test_free_sweep) ... ok
+test_independent_door_angles (test_review_geometry.ReviewGeometryTests.test_independent_door_angles) ... ok
+test_motion_collision_between_clear_endpoints (test_review_geometry.ReviewGeometryTests.test_motion_collision_between_clear_endpoints) ... ok
+test_real_mesh_containment_and_door_hole (test_review_geometry.ReviewGeometryTests.test_real_mesh_containment_and_door_hole) ... ok
+test_sweep_encloses_rotation_with_sub_mm_error (test_review_geometry.ReviewGeometryTests.test_sweep_encloses_rotation_with_sub_mm_error) ... ok
+test_width_range_changes_result (test_review_geometry.ReviewGeometryTests.test_width_range_changes_result) ... ok
+test_wrong_scene_rejected (test_review_geometry.ReviewGeometryTests.test_wrong_scene_rejected) ... ok
+test_known_lengths (test_stage1.DataContractTests.test_known_lengths) ... ok
+test_rejects_changed_source (test_stage1.DataContractTests.test_rejects_changed_source) ... ok
+test_rejects_missing_source (test_stage1.DataContractTests.test_rejects_missing_source) ... ok
+test_rejects_out_of_range (test_stage1.DataContractTests.test_rejects_out_of_range) ... ok
+test_rejects_wrong_units (test_stage1.DataContractTests.test_rejects_wrong_units) ... ok
+test_requires_all_room_ids (test_stage1.DataContractTests.test_requires_all_room_ids) ... ok
+test_unknown_requires_reason (test_stage1.DataContractTests.test_unknown_requires_reason) ... ok
+test_valid_sources_and_dimensions (test_stage1.DataContractTests.test_valid_sources_and_dimensions) ... ok
+test_door_hinge_and_direction_from_plan (test_stage2.SolidGeometryTests.test_door_hinge_and_direction_from_plan) ... ok
+test_door_mesh_is_closed_without_duplicate_faces (test_stage2.SolidGeometryTests.test_door_mesh_is_closed_without_duplicate_faces) ... ok
+test_door_void_and_lintel (test_stage2.SolidGeometryTests.test_door_void_and_lintel) ... ok
+test_tolerance_boundary_and_invalid_numbers (test_stage2.SolidGeometryTests.test_tolerance_boundary_and_invalid_numbers) ... ok
+test_union_does_not_double_count_corner (test_stage2.SolidGeometryTests.test_union_does_not_double_count_corner) ... ok
+test_fit_covers_entire_required_rectangle (test_stage3.Stage3GeometryTests.test_fit_covers_entire_required_rectangle) ... ok
+test_height_boundary_is_not_dimension_tolerance (test_stage3.Stage3GeometryTests.test_height_boundary_is_not_dimension_tolerance) ... ok
+test_layouts_preserve_kitchen_and_two_sleepers (test_stage3.Stage3GeometryTests.test_layouts_preserve_kitchen_and_two_sleepers) ... ok
+test_narrow_turn_is_not_a_metre_wide_route (test_stage3.Stage3GeometryTests.test_narrow_turn_is_not_a_metre_wide_route) ... ok
+test_normal_thickness_not_vertical (test_stage3.Stage3GeometryTests.test_normal_thickness_not_vertical) ... ok
+test_outboard_stringer_blocks_a_tread_only_clearance (test_stage3.Stage3GeometryTests.test_outboard_stringer_blocks_a_tread_only_clearance) ... ok
+test_overlap_and_shared_boundary (test_stage3.Stage3GeometryTests.test_overlap_and_shared_boundary) ... ok
+test_reject_outside_roof (test_stage3.Stage3GeometryTests.test_reject_outside_roof) ... ok
+test_route_edges_not_just_ridge (test_stage3.Stage3GeometryTests.test_route_edges_not_just_ridge) ... ok
+test_route_must_have_floor_under_whole_width (test_stage3.Stage3GeometryTests.test_route_must_have_floor_under_whole_width) ... ok
+test_fridge_has_a_separate_access_target_from_both_entries (test_stage3_v2.ApplianceAccessRegression.test_fridge_has_a_separate_access_target_from_both_entries) ... ok
+test_open_door_must_not_be_ignored_at_stair_foot (test_stage3_v2.DoorApproachRegression.test_open_door_must_not_be_ignored_at_stair_foot) ... ok
+test_both_entries_must_connect (test_stage3_v2.RevisionTwoTests.test_both_entries_must_connect) ... ok
+test_corridor_900_boundary (test_stage3_v2.RevisionTwoTests.test_corridor_900_boundary) ... ok
+test_guest_mode_is_real_six_seats (test_stage3_v2.RevisionTwoTests.test_guest_mode_is_real_six_seats) ... ok
+test_media_zone_not_a_shortcut (test_stage3_v2.RevisionTwoTests.test_media_zone_not_a_shortcut) ... ok
+test_side_stair_and_actual_floor (test_stage3_v2.RevisionTwoTests.test_side_stair_and_actual_floor) ... ok
+test_sight_ray_three_dimensions (test_stage3_v2.RevisionTwoTests.test_sight_ray_three_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.108s
+
+OK

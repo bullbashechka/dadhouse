@@ -1,0 +1,25 @@
+{
+  "scene_sha256": "3c32387b25592a617fa770a5796f8a186058c76ece9c674b09477ee82fd8fcdb",
+  "engine": "CYCLES",
+  "device": "METAL",
+  "images": [
+    {
+      "file": "gable_D06_After_pilot.png",
+      "sha256": "2587604a0dcd9b106436f68dd81c7885b9738fbb5493050c268bedc37b072d27",
+      "view": "D06_After",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Interior_Reverse_pilot.png",
+      "sha256": "3b1fb4cc6bd0f481824469b48700294240f1295fd3a2ee3da6eb19a1d4aa0f0b",
+      "view": "Interior_Reverse",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Lounge_pilot.png",
+      "sha256": "9ba4b847fbaaf21502a842e647ee5037e8c6c7fc857f79995fde7b70e805752d",
+      "view": "Lounge",
+      "layer": "02_Gable"
+    }
+  ]
+}

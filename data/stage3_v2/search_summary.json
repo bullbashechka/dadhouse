@@ -1,0 +1,21 @@
+{
+  "layouts": 108,
+  "spatially_passing": 54,
+  "main": [
+    {
+      "family": "mansard",
+      "ridge_mm": 6840,
+      "platform_m2": 12.1246
+    },
+    {
+      "family": "gable",
+      "ridge_mm": 6020,
+      "platform_m2": 12.1246
+    },
+    {
+      "family": "high_kitchen",
+      "ridge_mm": 6330,
+      "platform_m2": 12.1246
+    }
+  ]
+}

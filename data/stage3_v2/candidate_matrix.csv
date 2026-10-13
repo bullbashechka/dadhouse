@@ -1,0 +1,109 @@
+id,position,stair_type,platform_m2,spatially_passes,issues
+west_compact_u_3100_2500,west,compact,12.1246,True,
+north_compact_u_3100_2500,north,compact,16.05,True,
+west_compact_l_3100_2500,west,compact,12.8186,True,
+north_compact_l_3100_2500,north,compact,15.55,True,
+west_compact_straight_3100_2500,west,compact,13.727,True,
+north_compact_straight_3100_2500,north,compact,13.75,True,
+west_compact_u_3100_2600,west,compact,12.1246,True,
+north_compact_u_3100_2600,north,compact,16.05,True,
+west_compact_l_3100_2600,west,compact,12.8186,True,
+north_compact_l_3100_2600,north,compact,15.55,True,
+west_compact_straight_3100_2600,west,compact,13.727,True,
+north_compact_straight_3100_2600,north,compact,13.75,True,
+west_compact_u_3100_2700,west,compact,12.1246,True,
+north_compact_u_3100_2700,north,compact,16.05,True,
+west_compact_l_3100_2700,west,compact,12.8186,True,
+north_compact_l_3100_2700,north,compact,15.55,True,
+west_compact_straight_3100_2700,west,compact,13.727,True,
+north_compact_straight_3100_2700,north,compact,13.75,True,
+west_compact_u_3200_2500,west,compact,12.6546,True,
+north_compact_u_3200_2500,north,compact,16.05,True,
+west_compact_l_3200_2500,west,compact,13.3486,True,
+north_compact_l_3200_2500,north,compact,15.55,True,
+west_compact_straight_3200_2500,west,compact,14.257,True,
+north_compact_straight_3200_2500,north,compact,13.75,True,
+west_compact_u_3200_2600,west,compact,12.6546,True,
+north_compact_u_3200_2600,north,compact,16.05,True,
+west_compact_l_3200_2600,west,compact,13.3486,True,
+north_compact_l_3200_2600,north,compact,15.55,True,
+west_compact_straight_3200_2600,west,compact,14.257,True,
+north_compact_straight_3200_2600,north,compact,13.75,True,
+west_compact_u_3200_2700,west,compact,12.6546,True,
+north_compact_u_3200_2700,north,compact,16.05,True,
+west_compact_l_3200_2700,west,compact,13.3486,True,
+north_compact_l_3200_2700,north,compact,15.55,True,
+west_compact_straight_3200_2700,west,compact,14.257,True,
+north_compact_straight_3200_2700,north,compact,13.75,True,
+west_compact_u_3300_2500,west,compact,13.1846,True,
+north_compact_u_3300_2500,north,compact,16.05,True,
+west_compact_l_3300_2500,west,compact,13.8786,True,
+north_compact_l_3300_2500,north,compact,15.55,True,
+west_compact_straight_3300_2500,west,compact,14.787,True,
+north_compact_straight_3300_2500,north,compact,13.75,True,
+west_compact_u_3300_2600,west,compact,13.1846,True,
+north_compact_u_3300_2600,north,compact,16.05,True,
+west_compact_l_3300_2600,west,compact,13.8786,True,
+north_compact_l_3300_2600,north,compact,15.55,True,
+west_compact_straight_3300_2600,west,compact,14.787,True,
+north_compact_straight_3300_2600,north,compact,13.75,True,
+west_compact_u_3300_2700,west,compact,13.1846,True,
+north_compact_u_3300_2700,north,compact,16.05,True,
+west_compact_l_3300_2700,west,compact,13.8786,True,
+north_compact_l_3300_2700,north,compact,15.55,True,
+west_compact_straight_3300_2700,west,compact,14.787,True,
+north_compact_straight_3300_2700,north,compact,13.75,True,
+west_ordinary_u_3100_2500,west,ordinary,10.2912,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3100_2500,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3100_2500,west,ordinary,10.9852,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3100_2500,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3100_2500,west,ordinary,11.7448,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3100_2500,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3100_2600,west,ordinary,10.2912,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3100_2600,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3100_2600,west,ordinary,10.9852,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3100_2600,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3100_2600,west,ordinary,11.7448,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3100_2600,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3100_2700,west,ordinary,10.2912,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3100_2700,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3100_2700,west,ordinary,10.9852,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3100_2700,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3100_2700,west,ordinary,11.7448,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3100_2700,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3200_2500,west,ordinary,10.8212,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3200_2500,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3200_2500,west,ordinary,11.5152,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3200_2500,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3200_2500,west,ordinary,12.2748,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3200_2500,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3200_2600,west,ordinary,10.8212,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3200_2600,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3200_2600,west,ordinary,11.5152,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3200_2600,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3200_2600,west,ordinary,12.2748,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3200_2600,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3200_2700,west,ordinary,10.8212,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3200_2700,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3200_2700,west,ordinary,11.5152,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3200_2700,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3200_2700,west,ordinary,12.2748,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3200_2700,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3300_2500,west,ordinary,11.3512,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3300_2500,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3300_2500,west,ordinary,12.0452,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3300_2500,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3300_2500,west,ordinary,12.8048,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3300_2500,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3300_2600,west,ordinary,11.3512,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3300_2600,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3300_2600,west,ordinary,12.0452,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3300_2600,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3300_2600,west,ordinary,12.8048,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3300_2600,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_u_3300_2700,west,ordinary,11.3512,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_u_3300_2700,north,ordinary,11.6,False,daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+west_ordinary_l_3300_2700,west,ordinary,12.0452,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+north_ordinary_l_3300_2700,north,ordinary,11.1,False,daily: конфликт мебели или прохода 900 мм; guests: конфликт мебели или прохода 900 мм
+west_ordinary_straight_3300_2700,west,ordinary,12.8048,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу
+north_ordinary_straight_3300_2700,north,ordinary,4.4,False,Верхний метровый маршрут не полностью поддержан площадкой.; Верхний маршрут пересекает лежанку.; daily: конфликт мебели или прохода 900 мм; daily: не подтверждён боковой доступ к каждому стулу; guests: конфликт мебели или прохода 900 мм; guests: не подтверждён боковой доступ к каждому стулу

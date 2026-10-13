@@ -1,0 +1,20 @@
+{
+  "status": "first_cycle_ready_for_owner_review",
+  "stage_accepted": false,
+  "scene": "models/house_stage3_v2.blend",
+  "scene_sha256": "b310f0889c05db28916849f81d3172b7f5da1813148bc0e875b83e279de94b0c",
+  "comparison": "data/stage3_v2/index.html",
+  "tests_passed": 42,
+  "scene_checks_passed": 230,
+  "render_count": 37,
+  "protected_files_unchanged": 47,
+  "candidate_count": 108,
+  "conditional_items": [
+    "Upper walls and garage are raised and not yet approved",
+    "Both entrances remain below mezzanine; height reveals after entry",
+    "Compact stair angle 48.7 degrees requires product choice",
+    "Kitchen counter 1200 mm and fridge height 1700 mm; actual appliance ventilation and door use pending",
+    "Structural design not certified"
+  ],
+  "next_step": "Owner chooses one or two roof directions before agreed paired comparisons"
+}

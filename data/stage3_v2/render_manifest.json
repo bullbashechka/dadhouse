@@ -1,0 +1,229 @@
+{
+  "scene_sha256": "b310f0889c05db28916849f81d3172b7f5da1813148bc0e875b83e279de94b0c",
+  "engine": "CYCLES",
+  "device": "METAL",
+  "images": [
+    {
+      "file": "Original_Terrace.png",
+      "sha256": "604fd1a22927cb49a96c890e929b9c6d21e9195e488378c7f9e1804af98eed67",
+      "view": "Terrace",
+      "layer": "00_Original"
+    },
+    {
+      "file": "Original_Garage.png",
+      "sha256": "49c47be11de232ab869789122ce98260049b9215fcdffa259619577d0cb4a351",
+      "view": "Garage",
+      "layer": "00_Original"
+    },
+    {
+      "file": "Original_Facade_East.png",
+      "sha256": "e3a178270981c03d4608f7dccf07f2ef621129760017a8fadf8b8033dbb2ab01",
+      "view": "Facade_East",
+      "layer": "00_Original"
+    },
+    {
+      "file": "Original_Facade_West.png",
+      "sha256": "a1d27aac681f5a603fb712d4252428603058124ccaa6b97a1b71e090fc56948b",
+      "view": "Facade_West",
+      "layer": "00_Original"
+    },
+    {
+      "file": "mansard_Terrace.png",
+      "sha256": "831c83832c19a90d14471cb679dbdd529031319c7da1ff272199b382f58ab227",
+      "view": "Terrace",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Garage.png",
+      "sha256": "d79aafd4f937b140680b7329ab187b4c3c4a7b88c1b41abdeb11235629fba2fc",
+      "view": "Garage",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Facade_East.png",
+      "sha256": "95257f2a53040422990308d8a5795f538a41647cf22b5c2955896065b44780cd",
+      "view": "Facade_East",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Facade_West.png",
+      "sha256": "60e8ad821169c0407fcb62bcd81b4727cbc81d49cb2abf700a78d7bce2495b2e",
+      "view": "Facade_West",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_D06.png",
+      "sha256": "df6595cd1126e14c3290535aa8cf98fcde99aaddd479615cc8858ab6483125ca",
+      "view": "D06",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_D05.png",
+      "sha256": "5436a9799a30e00931ae3d15824fc6765e3dfa86c0b54dea97251b9131c32b66",
+      "view": "D05",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_D06_After.png",
+      "sha256": "a4d5900884ea41ae47a8b30837a867f0bd7e7a3549141f5150aebade61ed4f40",
+      "view": "D06_After",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_D05_After.png",
+      "sha256": "be3a6715c69ad1cad05def40d37d106efe03d71c4cd966a94ffc284552c6f803",
+      "view": "D05_After",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Upper.png",
+      "sha256": "1f5980e4118330fe896b9e870a974f6f7ce9c70cb05daeab058fad58dbba49fa",
+      "view": "Upper",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Interior_Reverse.png",
+      "sha256": "9dd874ac70ae4a87364a8e389d9ea5ed4bc9d004b64a49fd2633a171d038305b",
+      "view": "Interior_Reverse",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "mansard_Lounge.png",
+      "sha256": "74accc5ffdc6e3b33e76796909a0089f1a2e2912d7a91a9d0fe7d12764176c87",
+      "view": "Lounge",
+      "layer": "01_Mansard"
+    },
+    {
+      "file": "gable_Terrace.png",
+      "sha256": "f05c40f5d10ef2339e1d837f852f54a82b369a957abcedf7ad37396a9520ce8c",
+      "view": "Terrace",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Garage.png",
+      "sha256": "3e3a4e6673fbf4588fe0ddc6e06c8449c1fa29731003519286d9c1e7e4443edf",
+      "view": "Garage",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Facade_East.png",
+      "sha256": "bb29cdf43c586e2d53f9f9af930a386e409ab5693197233ffe9fe520084ba8e9",
+      "view": "Facade_East",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Facade_West.png",
+      "sha256": "3836ccd2395e4efef0b1a7d1731f73896d3f2d92016821a41b44498063f24822",
+      "view": "Facade_West",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_D06.png",
+      "sha256": "ff528cd13d165694c81f6974ae82020300af869b770d299c951dfbb92df7d147",
+      "view": "D06",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_D05.png",
+      "sha256": "454174ea5f1519a0b0b60586e7a1703e052ff484ed693b6e7db637b918906e31",
+      "view": "D05",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_D06_After.png",
+      "sha256": "b2c5826d7b68b56a21e98701e329d3f083b4f8f7af27fd66d49b0a312eda2624",
+      "view": "D06_After",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_D05_After.png",
+      "sha256": "7345e662aeadd456551750f3ab25ce5c2a472ce3d1d4255c436ef4da85223a63",
+      "view": "D05_After",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Upper.png",
+      "sha256": "b0097a062d4068850d43d51d629c188af50c0c8e857a52a018049a2c563ddb68",
+      "view": "Upper",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Interior_Reverse.png",
+      "sha256": "8b48a14ed860c0e6bb8e2daa0777976c805f4b6bdea5e89e52fd68630b421dc4",
+      "view": "Interior_Reverse",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "gable_Lounge.png",
+      "sha256": "b337b3be0a8676fe2f1a94b058616756d73809b7569be34af1b11052c64711bd",
+      "view": "Lounge",
+      "layer": "02_Gable"
+    },
+    {
+      "file": "high_kitchen_Terrace.png",
+      "sha256": "b685a142aa193eeb78ff13fa279d4fcf5125d42d88776a5b8924cf83900b5876",
+      "view": "Terrace",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Garage.png",
+      "sha256": "beadf4591d71604f5af87ec1faccfd83b7680ffd92dffddc2f464df15a55e290",
+      "view": "Garage",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Facade_East.png",
+      "sha256": "b21c4a9a04c932bf739b1d3014b9dddceb3bbac4f1d58479687fc5d23cf3645c",
+      "view": "Facade_East",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Facade_West.png",
+      "sha256": "5494037c0302cb31443bb96c2f31ec4e0594a524826774e2ff7323d5456d3c5b",
+      "view": "Facade_West",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_D06.png",
+      "sha256": "14f4fa7680cbaa2fbd172aa0a5147cccd400ca1f3a6f3f37dfcac07056beaca7",
+      "view": "D06",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_D05.png",
+      "sha256": "cabbe4985f5244bdb45e0aff87b077db945b65e0e523c1e625d0a1af5573438a",
+      "view": "D05",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_D06_After.png",
+      "sha256": "ec45eb14336691bd01d2cc5abc2eace7dfab6c9f8e9e33490f2ff51d1f927093",
+      "view": "D06_After",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_D05_After.png",
+      "sha256": "b98cdc0f427f28933e90627069c03ae364b3108b5b0518161e383388ccde569a",
+      "view": "D05_After",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Upper.png",
+      "sha256": "f9b6762c31f5fc4d224126187bfca69d1372f143c52cdda17a61652143f8f2b1",
+      "view": "Upper",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Interior_Reverse.png",
+      "sha256": "758633fc4e63f3d026e7d00bf1840a5070084f61eb68656615ab00536b8c73e9",
+      "view": "Interior_Reverse",
+      "layer": "03_High_Kitchen"
+    },
+    {
+      "file": "high_kitchen_Lounge.png",
+      "sha256": "432f8a27c74d287f353b857237bb69e9d6391213c179d548a6abe21d05ad25c4",
+      "view": "Lounge",
+      "layer": "03_High_Kitchen"
+    }
+  ]
+}

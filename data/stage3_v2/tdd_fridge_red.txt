@@ -1,0 +1,21 @@
+test_fridge_has_a_separate_access_target_from_both_entries (test_stage3_v2.ApplianceAccessRegression.test_fridge_has_a_separate_access_target_from_both_entries) ... FAIL
+test_open_door_must_not_be_ignored_at_stair_foot (test_stage3_v2.DoorApproachRegression.test_open_door_must_not_be_ignored_at_stair_foot) ... ok
+test_both_entries_must_connect (test_stage3_v2.RevisionTwoTests.test_both_entries_must_connect) ... ok
+test_corridor_900_boundary (test_stage3_v2.RevisionTwoTests.test_corridor_900_boundary) ... ok
+test_guest_mode_is_real_six_seats (test_stage3_v2.RevisionTwoTests.test_guest_mode_is_real_six_seats) ... ok
+test_media_zone_not_a_shortcut (test_stage3_v2.RevisionTwoTests.test_media_zone_not_a_shortcut) ... ok
+test_side_stair_and_actual_floor (test_stage3_v2.RevisionTwoTests.test_side_stair_and_actual_floor) ... ok
+test_sight_ray_three_dimensions (test_stage3_v2.RevisionTwoTests.test_sight_ray_three_dimensions) ... ok
+
+======================================================================
+FAIL: test_fridge_has_a_separate_access_target_from_both_entries (test_stage3_v2.ApplianceAccessRegression.test_fridge_has_a_separate_access_target_from_both_entries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kirillsaidashev/Documents/Projects/actual/dadhouse/tests/test_stage3_v2.py", line 53, in test_fridge_has_a_separate_access_target_from_both_entries
+    self.assertTrue(c['ground'][mode]['circulation']['access'].get(door+':fridge',False))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.089s
+
+FAILED (failures=1)

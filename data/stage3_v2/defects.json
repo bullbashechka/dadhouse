@@ -1,0 +1,29 @@
+{
+  "resolved": [
+    {
+      "issue": "Door and stair approach overlap",
+      "resolution": "Shorter compact stair, 90-degree door scenario and actual mesh route checks"
+    },
+    {
+      "issue": "Guest chair access",
+      "resolution": "Guest table and sofa rearrangement; all six chair approaches pass"
+    },
+    {
+      "issue": "Fridge blocked approach or terrace sightline",
+      "resolution": "1700 mm body under upper stair; access and sightlines pass, 137.5 mm overhead gap; appliance door and ventilation still pending"
+    },
+    {
+      "issue": "Large glass glare",
+      "resolution": "Light glossy visibility adjusted and final images reviewed"
+    },
+    {
+      "issue": "High roof east wall junction gap",
+      "resolution": "Wall split at 6600 mm boundary, closure ray regression and visual review"
+    },
+    {
+      "issue": "Entry sheet clipped third row",
+      "resolution": "Canvas expanded to include all six views and footer; regenerated and reviewed"
+    }
+  ],
+  "verification_note": "Automated geometry tests plus manual image review; not every correction used automated TDD"
+}

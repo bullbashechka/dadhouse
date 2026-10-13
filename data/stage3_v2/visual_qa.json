@@ -1,0 +1,24 @@
+{
+  "status": "passed_for_concept_comparison",
+  "review_method": "Manual image inspection, including final contact sheets and five presentation sheets",
+  "reviewed_files": {
+    "renders/stage3_v2/qa_mansard.jpg": "bcf79e90d20aa01d4fc3106ec0b29a95155f6d20c6d729277d59b7b439fe226e",
+    "renders/stage3_v2/qa_Original.jpg": "60800fd52f667fed2c2625f6a41192a27d4e33983336e6413167aa00c5f01eed",
+    "renders/stage3_v2/qa_high_kitchen.jpg": "31df979dee18d5bbd91a102c19406873318e777fb8d2f0362bcf49895f2c95ba",
+    "renders/stage3_v2/qa_gable.jpg": "17480e9c65ab8a2b5f0742158cc4d271c01f8f4e2deeab58bd6d8d7fcb4a3578",
+    "renders/stage3_v2/04_entry_experience.png": "0793d1bf70315c0df005529fde3f3ee370e8b26e76f3ed419f8954db094cac5c",
+    "renders/stage3_v2/03_sections.png": "724c4221cc3d82e03d47b71158e152210ceb26debacc32759b521e81b682cc52",
+    "renders/stage3_v2/00_roof_comparison.png": "51bec36204a4b27671d32ef4d270cc7ec5bcde1f8ed29387c29102d84971c796",
+    "renders/stage3_v2/02_mezzanine.png": "9af1e66598fc0766d575c6d2b7f9f21acfa41d525a3436cfa2e9a13858a2e008",
+    "renders/stage3_v2/01_ground_layouts.png": "7b0d0a2d411ee7bd3acc4c9476b65bdbf0a1eedeef60709916188dd01bcdc078",
+    "renders/stage3_v2/high_kitchen_Facade_East.png": "b21c4a9a04c932bf739b1d3014b9dddceb3bbac4f1d58479687fc5d23cf3645c"
+  },
+  "background_reopen_verified": true,
+  "native_gui_verified": false,
+  "browser_render_verified": false,
+  "local_html_links_checked": 42,
+  "limitations": [
+    "Conceptual geometry and furniture envelopes, not construction drawings",
+    "Small glass reflections remain; opening and wall changes require owner decisions"
+  ]
+}

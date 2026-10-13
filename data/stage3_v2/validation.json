@@ -1,0 +1,1178 @@
+{
+  "ok": true,
+  "checks": {
+    "protected_files": {
+      "ok": true
+    },
+    "scene_digest": {
+      "ok": true
+    },
+    "concept_digest": {
+      "ok": true
+    },
+    "baseline_geometry": {
+      "ok": true,
+      "count": 123
+    },
+    "01_Mansard_isolation_Original": {
+      "ok": true
+    },
+    "01_Mansard_isolation_mansard": {
+      "ok": true
+    },
+    "01_Mansard_isolation_gable": {
+      "ok": true
+    },
+    "01_Mansard_isolation_high_kitchen": {
+      "ok": true
+    },
+    "01_Mansard_chair_count": {
+      "ok": true
+    },
+    "01_Mansard_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "01_Mansard_all_entries_access": {
+      "ok": true
+    },
+    "01_Mansard_chair_approaches": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_isolation_Original": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_isolation_mansard": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_isolation_gable": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_isolation_high_kitchen": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_chair_count": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "04_mansard_Six_Seats_all_entries_access": {
+      "ok": true
+    },
+    "04_mansard_Six_Seats_chair_approaches": {
+      "ok": true
+    },
+    "mansard_floor": {
+      "ok": true
+    },
+    "mansard_clearance_0": {
+      "ok": true,
+      "minimum_mm": 2596.981906890869,
+      "role": "upper_route"
+    },
+    "mansard_clearance_1": {
+      "ok": true,
+      "minimum_mm": 2596.981430053711,
+      "role": "upper_route"
+    },
+    "mansard_clearance_2": {
+      "ok": true,
+      "minimum_mm": 2950.2853393554688,
+      "role": "upper_route"
+    },
+    "mansard_clearance_3": {
+      "ok": true,
+      "minimum_mm": 2572.7094650268555,
+      "role": "upper_route"
+    },
+    "mansard_clearance_4": {
+      "ok": true,
+      "minimum_mm": 5457.3835372924805,
+      "role": "stair"
+    },
+    "mansard_clearance_5": {
+      "ok": true,
+      "minimum_mm": 3169.8537826538086,
+      "role": "stair"
+    },
+    "mansard_clearance_6": {
+      "ok": true,
+      "minimum_mm": 5217.785167694092,
+      "role": "stair"
+    },
+    "mansard_clearance_7": {
+      "ok": true,
+      "minimum_mm": 3146.103858947754,
+      "role": "stair"
+    },
+    "mansard_clearance_8": {
+      "ok": true,
+      "minimum_mm": 4978.186321258545,
+      "role": "stair"
+    },
+    "mansard_clearance_9": {
+      "ok": true,
+      "minimum_mm": 3122.353935241699,
+      "role": "stair"
+    },
+    "mansard_clearance_10": {
+      "ok": true,
+      "minimum_mm": 4648.6040115356445,
+      "role": "stair"
+    },
+    "mansard_clearance_11": {
+      "ok": true,
+      "minimum_mm": 3098.6040115356445,
+      "role": "stair"
+    },
+    "mansard_clearance_12": {
+      "ok": true,
+      "minimum_mm": 4284.853935241699,
+      "role": "stair"
+    },
+    "mansard_clearance_13": {
+      "ok": true,
+      "minimum_mm": 3040.686321258545,
+      "role": "stair"
+    },
+    "mansard_clearance_14": {
+      "ok": true,
+      "minimum_mm": 3921.103858947754,
+      "role": "stair"
+    },
+    "mansard_clearance_15": {
+      "ok": true,
+      "minimum_mm": 2892.7846908569336,
+      "role": "stair"
+    },
+    "mansard_clearance_16": {
+      "ok": true,
+      "minimum_mm": 3557.3537826538086,
+      "role": "stair"
+    },
+    "mansard_clearance_17": {
+      "ok": true,
+      "minimum_mm": 2744.8830604553223,
+      "role": "stair"
+    },
+    "mansard_clearance_18": {
+      "ok": true,
+      "minimum_mm": 2463.603687286377,
+      "role": "stair"
+    },
+    "mansard_clearance_19": {
+      "ok": true,
+      "minimum_mm": 2113.604164123535,
+      "role": "lying_600_above_mattress"
+    },
+    "mansard_clearance_20": {
+      "ok": true,
+      "minimum_mm": 2613.6032104492188,
+      "role": "seated_1100_above_mattress"
+    },
+    "mansard_clearance_21": {
+      "ok": true,
+      "minimum_mm": 4285.133457183838,
+      "role": "lying_600_above_mattress"
+    },
+    "mansard_clearance_22": {
+      "ok": true,
+      "minimum_mm": 3785.133457183838,
+      "role": "seated_1100_above_mattress"
+    },
+    "mansard_route_floor_support": {
+      "ok": true
+    },
+    "mansard_door_sweeps": {
+      "ok": true
+    },
+    "mansard_thickness_(350, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2255.025253169417,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(350, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2255.025253169417,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(350, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2255.025253169417,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(350, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2255.025253169417,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(450, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2113.603896932107,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(450, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2113.603896932107,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(450, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2113.603896932107,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_thickness_(450, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2113.603896932107,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "mansard_opening_window_n1": {
+      "ok": true
+    },
+    "mansard_opening_window_n2": {
+      "ok": true
+    },
+    "mansard_opening_door_north": {
+      "ok": true
+    },
+    "mansard_opening_door_south": {
+      "ok": true
+    },
+    "mansard_opening_window_w": {
+      "ok": true
+    },
+    "mansard_opening_garage_gate": {
+      "ok": true
+    },
+    "mansard_opening_window_e": {
+      "ok": true
+    },
+    "mansard_opening_door_terrace": {
+      "ok": true
+    },
+    "mansard_opening_door_garage": {
+      "ok": true
+    },
+    "mansard_opening_door_kitchen_north": {
+      "ok": true
+    },
+    "mansard_opening_door_kitchen_west": {
+      "ok": true
+    },
+    "mansard_opening_door_bedroom": {
+      "ok": true
+    },
+    "mansard_opening_door_mid_left": {
+      "ok": true
+    },
+    "mansard_opening_door_small": {
+      "ok": true
+    },
+    "mansard_opening_door_lower_w": {
+      "ok": true
+    },
+    "mansard_opening_door_lower_e": {
+      "ok": true
+    },
+    "mansard_opening_door_upper_m": {
+      "ok": true
+    },
+    "mansard_opening_door_upper_e": {
+      "ok": true
+    },
+    "mansard_opening_door_upper_link": {
+      "ok": true
+    },
+    "mansard_fridge_head_allowance": {
+      "ok": true,
+      "minimum_mm": 137.49992847442627,
+      "assumption_mm": 100
+    },
+    "mansard_view_D06_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "mansard_view_D06_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "mansard_view_D05_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "mansard_view_D05_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "02_Gable_isolation_Original": {
+      "ok": true
+    },
+    "02_Gable_isolation_mansard": {
+      "ok": true
+    },
+    "02_Gable_isolation_gable": {
+      "ok": true
+    },
+    "02_Gable_isolation_high_kitchen": {
+      "ok": true
+    },
+    "02_Gable_chair_count": {
+      "ok": true
+    },
+    "02_Gable_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "02_Gable_all_entries_access": {
+      "ok": true
+    },
+    "02_Gable_chair_approaches": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_isolation_Original": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_isolation_mansard": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_isolation_gable": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_isolation_high_kitchen": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_chair_count": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "05_gable_Six_Seats_all_entries_access": {
+      "ok": true
+    },
+    "05_gable_Six_Seats_chair_approaches": {
+      "ok": true
+    },
+    "gable_floor": {
+      "ok": true
+    },
+    "gable_clearance_0": {
+      "ok": true,
+      "minimum_mm": 2096.6657638549805,
+      "role": "upper_route"
+    },
+    "gable_clearance_1": {
+      "ok": true,
+      "minimum_mm": 2096.6657638549805,
+      "role": "upper_route"
+    },
+    "gable_clearance_2": {
+      "ok": true,
+      "minimum_mm": 2151.6918182373047,
+      "role": "upper_route"
+    },
+    "gable_clearance_3": {
+      "ok": true,
+      "minimum_mm": 2061.1337661743164,
+      "role": "upper_route"
+    },
+    "gable_clearance_4": {
+      "ok": true,
+      "minimum_mm": 4935.7985496521,
+      "role": "stair"
+    },
+    "gable_clearance_5": {
+      "ok": true,
+      "minimum_mm": 2983.0976486206055,
+      "role": "stair"
+    },
+    "gable_clearance_6": {
+      "ok": true,
+      "minimum_mm": 4674.931812286377,
+      "role": "stair"
+    },
+    "gable_clearance_7": {
+      "ok": true,
+      "minimum_mm": 2856.4648628234863,
+      "role": "stair"
+    },
+    "gable_clearance_8": {
+      "ok": true,
+      "minimum_mm": 4414.065074920654,
+      "role": "stair"
+    },
+    "gable_clearance_9": {
+      "ok": true,
+      "minimum_mm": 2729.831600189209,
+      "role": "stair"
+    },
+    "gable_clearance_10": {
+      "ok": true,
+      "minimum_mm": 4153.198337554932,
+      "role": "stair"
+    },
+    "gable_clearance_11": {
+      "ok": true,
+      "minimum_mm": 2603.19881439209,
+      "role": "stair"
+    },
+    "gable_clearance_12": {
+      "ok": true,
+      "minimum_mm": 3892.331600189209,
+      "role": "stair"
+    },
+    "gable_clearance_13": {
+      "ok": true,
+      "minimum_mm": 2476.5655517578125,
+      "role": "stair"
+    },
+    "gable_clearance_14": {
+      "ok": true,
+      "minimum_mm": 3631.4648628234863,
+      "role": "stair"
+    },
+    "gable_clearance_15": {
+      "ok": true,
+      "minimum_mm": 2349.932289123535,
+      "role": "stair"
+    },
+    "gable_clearance_16": {
+      "ok": true,
+      "minimum_mm": 3370.5976486206055,
+      "role": "stair"
+    },
+    "gable_clearance_17": {
+      "ok": true,
+      "minimum_mm": 2223.299026489258,
+      "role": "stair"
+    },
+    "gable_clearance_18": {
+      "ok": true,
+      "minimum_mm": 2821.522903442383,
+      "role": "stair"
+    },
+    "gable_clearance_19": {
+      "ok": true,
+      "minimum_mm": 2471.522903442383,
+      "role": "lying_600_above_mattress"
+    },
+    "gable_clearance_20": {
+      "ok": true,
+      "minimum_mm": 2366.3283348083496,
+      "role": "seated_1100_above_mattress"
+    },
+    "gable_clearance_21": {
+      "ok": true,
+      "minimum_mm": 3160.3628158569336,
+      "role": "lying_600_above_mattress"
+    },
+    "gable_clearance_22": {
+      "ok": true,
+      "minimum_mm": 2660.363292694092,
+      "role": "seated_1100_above_mattress"
+    },
+    "gable_route_floor_support": {
+      "ok": true
+    },
+    "gable_door_sweeps": {
+      "ok": true
+    },
+    "gable_thickness_(350, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2168.644997465787,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(350, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2168.644997465787,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(350, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2168.644997465787,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(350, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2168.644997465787,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(450, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2061.1335496174224,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(450, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2061.1335496174224,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(450, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2061.1335496174224,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_thickness_(450, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2061.1335496174224,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "gable_opening_window_n1": {
+      "ok": true
+    },
+    "gable_opening_window_n2": {
+      "ok": true
+    },
+    "gable_opening_door_north": {
+      "ok": true
+    },
+    "gable_opening_door_south": {
+      "ok": true
+    },
+    "gable_opening_window_w": {
+      "ok": true
+    },
+    "gable_opening_garage_gate": {
+      "ok": true
+    },
+    "gable_opening_window_e": {
+      "ok": true
+    },
+    "gable_opening_door_terrace": {
+      "ok": true
+    },
+    "gable_opening_door_garage": {
+      "ok": true
+    },
+    "gable_opening_door_kitchen_north": {
+      "ok": true
+    },
+    "gable_opening_door_kitchen_west": {
+      "ok": true
+    },
+    "gable_opening_door_bedroom": {
+      "ok": true
+    },
+    "gable_opening_door_mid_left": {
+      "ok": true
+    },
+    "gable_opening_door_small": {
+      "ok": true
+    },
+    "gable_opening_door_lower_w": {
+      "ok": true
+    },
+    "gable_opening_door_lower_e": {
+      "ok": true
+    },
+    "gable_opening_door_upper_m": {
+      "ok": true
+    },
+    "gable_opening_door_upper_e": {
+      "ok": true
+    },
+    "gable_opening_door_upper_link": {
+      "ok": true
+    },
+    "gable_fridge_head_allowance": {
+      "ok": true,
+      "minimum_mm": 137.49992847442627,
+      "assumption_mm": 100
+    },
+    "gable_view_D06_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "gable_view_D06_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "gable_view_D05_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "gable_view_D05_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "03_High_Kitchen_isolation_Original": {
+      "ok": true
+    },
+    "03_High_Kitchen_isolation_mansard": {
+      "ok": true
+    },
+    "03_High_Kitchen_isolation_gable": {
+      "ok": true
+    },
+    "03_High_Kitchen_isolation_high_kitchen": {
+      "ok": true
+    },
+    "03_High_Kitchen_chair_count": {
+      "ok": true
+    },
+    "03_High_Kitchen_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "03_High_Kitchen_all_entries_access": {
+      "ok": true
+    },
+    "03_High_Kitchen_chair_approaches": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_isolation_Original": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_isolation_mansard": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_isolation_gable": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_isolation_high_kitchen": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_chair_count": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_actual_ground_meshes": {
+      "ok": true,
+      "conflicts": []
+    },
+    "06_high_kitchen_Six_Seats_all_entries_access": {
+      "ok": true
+    },
+    "06_high_kitchen_Six_Seats_chair_approaches": {
+      "ok": true
+    },
+    "high_kitchen_floor": {
+      "ok": true
+    },
+    "high_kitchen_clearance_0": {
+      "ok": true,
+      "minimum_mm": 2101.5466690063477,
+      "role": "upper_route"
+    },
+    "high_kitchen_clearance_1": {
+      "ok": true,
+      "minimum_mm": 2101.5466690063477,
+      "role": "upper_route"
+    },
+    "high_kitchen_clearance_2": {
+      "ok": true,
+      "minimum_mm": 2166.6988372802734,
+      "role": "upper_route"
+    },
+    "high_kitchen_clearance_3": {
+      "ok": true,
+      "minimum_mm": 2065.858268737793,
+      "role": "upper_route"
+    },
+    "high_kitchen_clearance_4": {
+      "ok": true,
+      "minimum_mm": 4940.386199951172,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_5": {
+      "ok": true,
+      "minimum_mm": 2985.9219551086426,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_6": {
+      "ok": true,
+      "minimum_mm": 4679.225730895996,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_7": {
+      "ok": true,
+      "minimum_mm": 2859.5829010009766,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_8": {
+      "ok": true,
+      "minimum_mm": 4418.064785003662,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_9": {
+      "ok": true,
+      "minimum_mm": 2733.2433700561523,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_10": {
+      "ok": true,
+      "minimum_mm": 4156.903839111328,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_11": {
+      "ok": true,
+      "minimum_mm": 2606.903839111328,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_12": {
+      "ok": true,
+      "minimum_mm": 3895.7433700561523,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_13": {
+      "ok": true,
+      "minimum_mm": 2480.564308166504,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_14": {
+      "ok": true,
+      "minimum_mm": 3634.5829010009766,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_15": {
+      "ok": true,
+      "minimum_mm": 2354.2247772216797,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_16": {
+      "ok": true,
+      "minimum_mm": 3373.4219551086426,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_17": {
+      "ok": true,
+      "minimum_mm": 2227.8857231140137,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_18": {
+      "ok": true,
+      "minimum_mm": 2822.7922439575195,
+      "role": "stair"
+    },
+    "high_kitchen_clearance_19": {
+      "ok": true,
+      "minimum_mm": 2472.7922439575195,
+      "role": "lying_600_above_mattress"
+    },
+    "high_kitchen_clearance_20": {
+      "ok": true,
+      "minimum_mm": 2369.3252563476562,
+      "role": "seated_1100_above_mattress"
+    },
+    "high_kitchen_clearance_21": {
+      "ok": true,
+      "minimum_mm": 2703.9223670959473,
+      "role": "lying_600_above_mattress"
+    },
+    "high_kitchen_clearance_22": {
+      "ok": true,
+      "minimum_mm": 2203.921890258789,
+      "role": "seated_1100_above_mattress"
+    },
+    "high_kitchen_route_floor_support": {
+      "ok": true
+    },
+    "high_kitchen_door_sweeps": {
+      "ok": true
+    },
+    "high_kitchen_thickness_(350, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2173.4332649166563,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(350, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2173.4332649166563,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(350, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2173.4332649166563,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(350, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2173.4332649166563,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(450, 300, 150)": {
+      "ok": true,
+      "minimum_mm": 2065.858246658825,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(450, 300, 200)": {
+      "ok": true,
+      "minimum_mm": 2065.858246658825,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(450, 400, 150)": {
+      "ok": true,
+      "minimum_mm": 2065.858246658825,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_thickness_(450, 400, 200)": {
+      "ok": true,
+      "minimum_mm": 2065.858246658825,
+      "roof_datum": "fixed exterior; closure changes with mauerlat"
+    },
+    "high_kitchen_opening_window_n1": {
+      "ok": true
+    },
+    "high_kitchen_opening_window_n2": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_north": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_south": {
+      "ok": true
+    },
+    "high_kitchen_opening_window_w": {
+      "ok": true
+    },
+    "high_kitchen_opening_garage_gate": {
+      "ok": true
+    },
+    "high_kitchen_opening_window_e": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_terrace": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_garage": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_kitchen_north": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_kitchen_west": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_bedroom": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_mid_left": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_small": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_lower_w": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_lower_e": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_upper_m": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_upper_e": {
+      "ok": true
+    },
+    "high_kitchen_opening_door_upper_link": {
+      "ok": true
+    },
+    "high_kitchen_fridge_head_allowance": {
+      "ok": true,
+      "minimum_mm": 137.49992847442627,
+      "assumption_mm": 100
+    },
+    "high_roof_east_junction_closed": {
+      "ok": true
+    },
+    "high_kitchen_view_D06_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "high_kitchen_view_D06_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "high_kitchen_view_D05_window": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "high_kitchen_view_D05_terrace": {
+      "ok": true,
+      "blocking_objects": []
+    },
+    "closed_new_meshes": {
+      "ok": true,
+      "failures": []
+    },
+    "resources": {
+      "ok": true
+    },
+    "negative_lowered_roof": {
+      "ok": true
+    }
+  },
+  "details": {
+    "mansard": {
+      "upper_wall_proposals": [
+        {
+          "name": "mansard_Upper_0",
+          "extension_mm": 913.6038969321071
+        },
+        {
+          "name": "mansard_Upper_1",
+          "extension_mm": 713.6038969321071
+        },
+        {
+          "name": "mansard_Upper_2",
+          "extension_mm": 913.6038969321071
+        },
+        {
+          "name": "mansard_Upper_3",
+          "extension_mm": 813.6038969321071
+        },
+        {
+          "name": "mansard_Upper_4",
+          "extension_mm": 1013.6038969321071
+        },
+        {
+          "name": "mansard_Upper_5",
+          "extension_mm": 1613.603896932107
+        },
+        {
+          "name": "mansard_Upper_6",
+          "extension_mm": 1413.603896932107
+        },
+        {
+          "name": "mansard_Upper_7",
+          "extension_mm": 913.6038969321071
+        },
+        {
+          "name": "mansard_Upper_8",
+          "extension_mm": 713.6038969321071
+        },
+        {
+          "name": "mansard_Upper_9",
+          "extension_mm": 913.6038969321071
+        },
+        {
+          "name": "mansard_Upper_10",
+          "extension_mm": 3273.9215385459174
+        },
+        {
+          "name": "mansard_Upper_11",
+          "extension_mm": 3085.1336597580384
+        },
+        {
+          "name": "mansard_Upper_12",
+          "extension_mm": 3677.2548718792505
+        },
+        {
+          "name": "mansard_Upper_13",
+          "extension_mm": 3542.4063870307655
+        },
+        {
+          "name": "mansard_Upper_14",
+          "extension_mm": 3373.9215385459174
+        },
+        {
+          "name": "mansard_Upper_15",
+          "extension_mm": 3085.1336597580384
+        },
+        {
+          "name": "mansard_Upper_16",
+          "extension_mm": 2977.2548718792505
+        },
+        {
+          "name": "mansard_Upper_17",
+          "extension_mm": 2842.4063870307655
+        },
+        {
+          "name": "mansard_Upper_18",
+          "extension_mm": 3373.9215385459174
+        },
+        {
+          "name": "mansard_Upper_19",
+          "extension_mm": 3085.1336597580384
+        },
+        {
+          "name": "mansard_Upper_24",
+          "extension_mm": 3131.1942658186445
+        }
+      ],
+      "entry_experience": "Оба входа под антресолью; высокий объём раскрывается перед восточным остеклением."
+    },
+    "gable": {
+      "upper_wall_proposals": [
+        {
+          "name": "gable_Upper_0",
+          "extension_mm": 1271.5231600070329
+        },
+        {
+          "name": "gable_Upper_1",
+          "extension_mm": 1192.562121045994
+        },
+        {
+          "name": "gable_Upper_2",
+          "extension_mm": 1271.5231600070329
+        },
+        {
+          "name": "gable_Upper_3",
+          "extension_mm": 1292.562121045994
+        },
+        {
+          "name": "gable_Upper_4",
+          "extension_mm": 1371.5231600070329
+        },
+        {
+          "name": "gable_Upper_5",
+          "extension_mm": 1831.2725170191143
+        },
+        {
+          "name": "gable_Upper_6",
+          "extension_mm": 1788.7550345016316
+        },
+        {
+          "name": "gable_Upper_7",
+          "extension_mm": 1131.2725170191143
+        },
+        {
+          "name": "gable_Upper_8",
+          "extension_mm": 1088.7550345016316
+        },
+        {
+          "name": "gable_Upper_9",
+          "extension_mm": 1131.2725170191143
+        },
+        {
+          "name": "gable_Upper_10",
+          "extension_mm": 2451.6329693376138
+        },
+        {
+          "name": "gable_Upper_11",
+          "extension_mm": 1960.3634261100233
+        },
+        {
+          "name": "gable_Upper_12",
+          "extension_mm": 2575.328461075059
+        },
+        {
+          "name": "gable_Upper_13",
+          "extension_mm": 2469.0347547813526
+        },
+        {
+          "name": "gable_Upper_14",
+          "extension_mm": 2551.6329693376138
+        },
+        {
+          "name": "gable_Upper_15",
+          "extension_mm": 1960.3634261100233
+        },
+        {
+          "name": "gable_Upper_16",
+          "extension_mm": 1875.3284610750588
+        },
+        {
+          "name": "gable_Upper_17",
+          "extension_mm": 1769.0347547813526
+        },
+        {
+          "name": "gable_Upper_18",
+          "extension_mm": 2551.6329693376138
+        },
+        {
+          "name": "gable_Upper_19",
+          "extension_mm": 1960.3634261100233
+        },
+        {
+          "name": "gable_Upper_24",
+          "extension_mm": 2017.8459435925415
+        }
+      ],
+      "entry_experience": "Оба входа под антресолью; высокий объём раскрывается перед восточным остеклением."
+    },
+    "high_kitchen": {
+      "upper_wall_proposals": [
+        {
+          "name": "high_kitchen_Upper_0",
+          "extension_mm": 429.16906237097646
+        },
+        {
+          "name": "high_kitchen_Upper_1",
+          "extension_mm": 420.98724418915845
+        },
+        {
+          "name": "high_kitchen_Upper_2",
+          "extension_mm": 1272.7921578180885
+        },
+        {
+          "name": "high_kitchen_Upper_3",
+          "extension_mm": 1293.4855489340143
+        },
+        {
+          "name": "high_kitchen_Upper_4",
+          "extension_mm": 1372.7921578180885
+        },
+        {
+          "name": "high_kitchen_Upper_5",
+          "extension_mm": 736.4417896437035
+        },
+        {
+          "name": "high_kitchen_Upper_6",
+          "extension_mm": 728.2599714618855
+        },
+        {
+          "name": "high_kitchen_Upper_7",
+          "extension_mm": 36.44178964370349
+        },
+        {
+          "name": "high_kitchen_Upper_8",
+          "extension_mm": 28.25997146188547
+        },
+        {
+          "name": "high_kitchen_Upper_9",
+          "extension_mm": 36.44178964370349
+        },
+        {
+          "name": "high_kitchen_Upper_10",
+          "extension_mm": 412.80542600734
+        },
+        {
+          "name": "high_kitchen_Upper_11",
+          "extension_mm": 195.98724418915845
+        },
+        {
+          "name": "high_kitchen_Upper_12",
+          "extension_mm": 879.623607825522
+        },
+        {
+          "name": "high_kitchen_Upper_13",
+          "extension_mm": 859.1690623709765
+        },
+        {
+          "name": "high_kitchen_Upper_14",
+          "extension_mm": 2819.7440363407068
+        },
+        {
+          "name": "high_kitchen_Upper_15",
+          "extension_mm": 1503.922273516515
+        },
+        {
+          "name": "high_kitchen_Upper_16",
+          "extension_mm": 1209.3548690899552
+        },
+        {
+          "name": "high_kitchen_Upper_17",
+          "extension_mm": 159.16906237097646
+        },
+        {
+          "name": "high_kitchen_Upper_18",
+          "extension_mm": 2819.7440363407068
+        },
+        {
+          "name": "high_kitchen_Upper_19",
+          "extension_mm": 1503.922273516515
+        },
+        {
+          "name": "high_kitchen_Upper_24",
+          "extension_mm": 1456.638571303235
+        }
+      ],
+      "entry_experience": "Оба входа под антресолью; высокий объём раскрывается перед восточным остеклением."
+    }
+  },
+  "scene_sha256": "b310f0889c05db28916849f81d3172b7f5da1813148bc0e875b83e279de94b0c",
+  "scope": "Saved mesh and conservative spatial checks; architectural concept, not structural certification"
+}

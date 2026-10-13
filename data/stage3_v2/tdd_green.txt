@@ -1,0 +1,11 @@
+test_both_entries_must_connect (test_stage3_v2.RevisionTwoTests.test_both_entries_must_connect) ... ok
+test_corridor_900_boundary (test_stage3_v2.RevisionTwoTests.test_corridor_900_boundary) ... ok
+test_guest_mode_is_real_six_seats (test_stage3_v2.RevisionTwoTests.test_guest_mode_is_real_six_seats) ... ok
+test_media_zone_not_a_shortcut (test_stage3_v2.RevisionTwoTests.test_media_zone_not_a_shortcut) ... ok
+test_side_stair_and_actual_floor (test_stage3_v2.RevisionTwoTests.test_side_stair_and_actual_floor) ... ok
+test_sight_ray_three_dimensions (test_stage3_v2.RevisionTwoTests.test_sight_ray_three_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.014s
+
+OK

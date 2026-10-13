@@ -1,0 +1,73 @@
+{
+  "status": "first_cycle_complete_pending_owner_direction",
+  "date": "2026-10-13",
+  "source": "Accepted conversation plan",
+  "priorities": [
+    "Both D06 and D05 equally important",
+    "Open view to terrace, stairs at side, no central columns",
+    "Open chill mezzanine for two; no area increase for double bed",
+    "Four daily and six guests with rearrangement",
+    "Show whole-house concepts first, detailed paired comparisons after owner direction choice"
+  ],
+  "preserved": [
+    "PRD.md",
+    "TASKS.md",
+    "stage2 and stage3-v1 scenes and deliverables"
+  ],
+  "units": "mm in calculations, m in Blender",
+  "assumptions": {
+    "floor": 3100,
+    "slab_range": [
+      300,
+      400
+    ],
+    "roof_range": [
+      350,
+      450
+    ],
+    "mauerlat_range": [
+      150,
+      200
+    ],
+    "standing_headroom": 2050,
+    "upper_route": 1000,
+    "ground_route": 900,
+    "chair_side_access": 450,
+    "lying_above_mattress": 600,
+    "seated_above_mattress": 1100
+  },
+  "phases": [
+    "1. Snapshot sources and add regression tests",
+    "2. Joint finite search of platform, stairs and dining layouts",
+    "3. Fit three roof families and build isolated revision",
+    "4. Reopen and check actual scene surfaces",
+    "5. Render locked cameras and review images",
+    "6. Package local comparison; wait for owner direction choice before pairwise refinements"
+  ],
+  "later_comparisons": [
+    "low/raised garage",
+    "ordinary/compact stair",
+    "small/large platform",
+    "high-at-threshold/reveal-after-entry",
+    "original/panoramic lower openings",
+    "covered/partially covered terrace",
+    "loungers/normal seating",
+    "glass/posts",
+    "symmetric/asymmetric and reduced height roof"
+  ],
+  "not_in_scope": [
+    "structural certification",
+    "working construction drawings",
+    "automatic acceptance of wall or opening changes"
+  ],
+  "stage_accepted": false,
+  "completed_phases": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "next_step": "Choose one or two roof directions, then implement agreed paired comparisons"
+}
